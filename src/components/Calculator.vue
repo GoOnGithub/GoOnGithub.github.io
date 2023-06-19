@@ -159,7 +159,7 @@
     </v-container>
     </v-overlay>
     <div v-show="skillHover" ref="skillWindow" :style="skillHoverWindow">
-      <v-card :class="`elevation-10`" style="color: #fff; background: #1f2b3b; border: 1px solid #31435d; border-radius: 8px; min-width:500px; max-width:500px;">
+      <v-card :class="`elevation-10`" class="skill-Box" style="color: #fff; background: #1f2b3b; border: 1px solid #31435d; border-radius: 8px; min-width:500px; max-width:500px;">
         <v-card-title>{{skillInfo['name']}}</v-card-title>
         <v-card-text><div v-html="content"></div></v-card-text>
       </v-card>

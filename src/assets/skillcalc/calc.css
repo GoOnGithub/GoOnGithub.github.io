@@ -47,16 +47,78 @@
     padding-bottom: 10px;
 }
 #skill-calc .desc {
-    padding-bottom: 10px;
+    padding: 9px 0;
+    margin:5px 0;
 }
-#skill-calc .skill_info {
+#skill-calc .skill_info .desc p {
+    margin-top: -12px;
+}
+/* #skill-calc .skill_info {
     padding: 10px 0;
+} */
+#skill-calc .skill_info .effects + .effects{
+    padding-top: 10px;
 }
 #skill-calc .req {
     padding-top:10px;
 }
-.skill_info .effects .desc::before{
+.skill_info .effects:has(div){
+    display:inline-block;
+    width:100%;
+}
+.skill_info .effects img{
+    float:left;
+    margin-right:10px;
+}
+/* .skill_info .effects .desc::after{
     content:'';
     width: 100%;
-    border-bottom: 1px solid rgb(49, 67, 93);
+    border: 1px solid rgb(49, 67, 93);
+    position:relative;
+    display:block;
+} */
+.skill_info .effects:has(div)::after{
+    content:'';
+    width: 100%;
+    border: 1px solid rgb(49, 67, 93);
+    position:relative;
+    display:block;
+    margin-top:10px;
 }
+.skill-Box .info::after{
+    content:'';
+    width: 100%;
+    border: 1px solid rgb(49, 67, 93);
+    position:relative;
+    display:block;
+    margin-top:10px;
+}
+.skill-Box .block.desc::after{
+    content:'';
+    width: 100%;
+    border: 1px solid rgb(49, 67, 93);
+    position:relative;
+    display:block;
+    margin-top:10px;
+}
+.skill_info p{
+    margin-bottom: 5px; 
+}
+.skill_info div + p{
+    margin-top: 5px; 
+}
+.skill-Box hr{
+    border: 1px solid rgb(49, 67, 93);
+    border:none;
+    size: 0;
+}
+.st_skill_icon{
+    float:left;
+    margin-right:10px;
+}
+.skill_info img + img::before {
+  content: ""; /* :after will only appear if this content is declared */
+  background: red;
+  width: 100px;
+  height: 100px;
+  }
