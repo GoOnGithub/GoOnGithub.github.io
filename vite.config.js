@@ -8,6 +8,7 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base:'/goongithub.github.io/',
   plugins: [
     vue({ 
       template: { transformAssetUrls }
@@ -20,7 +21,6 @@ export default defineConfig({
       },
     }),
   ],
-  publicPath: process.env.NODE_ENV === 'production' ? '/my-project/' : '/',
   define: { 'process.env': {} },
   resolve: {
     alias: {

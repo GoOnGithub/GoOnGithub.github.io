@@ -1,0 +1,807 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>16210</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Charged Bolt</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>18</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>10 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires a charged arrow at an enemy dealing <span>[x]-[y]</span> Ranged Damage and slowing Move Speed for <span>[z] сек.</span>.<br />The skill cannot be evaded, blocked, or parried.<br />Damage is reduced <span>-20%</span> if the target is within <span>8m</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff95.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Bubble Trapped targets are Stunned and pushed backwards.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts an additional +36% damage on Stunned targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slowed targets are Stunned.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>13564</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>3</level>
+    <name>Piercing Shot</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>31</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires a serrated arrow, dealing an initial <span>[x]-[y]</span> Ranged Damage and then inflicting Bleeding for <span>[b]</span> Magic Damage over <span>[z] сек.</span>.<br />Damage is reduced -20% if target is within 8m.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Bleeding: Inflicts Bleed for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases severity of Bleed effects on targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +27% damage over time on Poisoned targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases severity of Slow effects on targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 3<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>14835</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Endless Arrows</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>8</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires arrows that deal <span>[d]</span>|cFFFF9C52%</span> of Ranged Attack as damage.<br />Damage decreases <span>-20%</span> if target is within <span>8m</span>.<br /><br /><br />Does not trigger a global cooldown. Hold down for continuous use.</span></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +24% damage on Slowed targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Deals +33% additional damage to Poisoned targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11368</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Double Recurve</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>52</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>8 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Lasts <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>15073</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Deadeye</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>82</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>80 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Deadeye buff lasts for <span>60 sec</span>, but bonus damage ends with movement.<br />Doesn't trigger a global cooldown.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12133</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Snare</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>71</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Removes all Shackle effects from the caster and inflics Snare on enemies in a <span>5m</span> area for <span>[z] сек.</span>.<br />Reduces targets' Evasion, Block, and Parry rates.<br />Duration of Snare decreases -50% in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff53.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Gains up to 30m range if used while under the effects of Float.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10694</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Float</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>207</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>90 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Lifts caster into the air for <span>[z] сек.</span>.<br />Increases ranged skill range <span>+7m</span> and damage <span>+30%</span>, but prevents Defense and Magic Defense from reducing received damage.<br />Prevents movement; canceled by using again.<br />Can't be used while Snared.<br />Prevents the use of skills with cast times.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff53.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Float: Increases ranged skill range <span>7m</span> and damage <span>+30%</span>.
+Prevents movement and nullifies Physical/Magic Defense.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>14760</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Boneyard</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>263</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts <span>[x]-[y]</span> Ranged damage on a target and all surrounding enemies in a 5m radius, confining them in a Bone Prison.<br />Interrupts the target.<br />The Bone Prison disappears in 10 seconds if not destroyed.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff05.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Your cover is blown!: Switches to Illion Army. Debuff. Used during Clovia's rescue (Elf's Main Quest: Ezna)</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11933</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Concussive Arrow</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>710</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>6 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires an arrow that explodes on contact, dealing <span>[x]-[y]</span> Ranged Damage and Shackling all enemies within <span>6m</span> of the target for <span>[z] сек.</span>. <br />Interrupts the target.<br />This skill cannot be evaded, blocked, or parried.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shackle: Disables Melee and Ranged skills for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff266.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts an additional +51% damage on targets under the effects of Feral Aura.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Gain a +40% bonus to your Defense Penetration for each rank of Bleeding on the target.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>13281</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Missile Rain</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>920</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>10-50 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>7 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>22 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Showers a target area with arrows to deal <span>[x]-[y]</span> Ranged Damage.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10708</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Intensity</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>289</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>60 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Gradually increases Ranged Critical Rate over <span>[z] сек.</span>. Grants immunity to Fear.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23592</skillid>
+    <classid>6</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Snipe</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>315</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-40 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>27 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Shoots a powerful arrow of light at a chosen target, dealing <span>[x]-[y]</span> Ranged damage to it and all enemies in the arrow's path.<br />Enemies damaged by Snipe are immune to it for <span>6 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snared targets are Tripped.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Archery 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>486</skillid>
+    <classid>6</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Wild Instincts</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Move Speed <span>+8%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Archery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7564</skillid>
+    <classid>6</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Eagle Eyes</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Ranged Accuracy <span>+5%</span> and Ranged Critical Rate <span>+5%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Archery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>888</skillid>
+    <classid>6</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Archery Expertise</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases cooldown for Piercing Shot, Charged Bolt, Stalker's Mark, Missile Rain, Toxic Shot, and Snipe skills <span>-10%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Archery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>479</skillid>
+    <classid>6</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Evasion</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Evasion <span>+10%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Archery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>889</skillid>
+    <classid>6</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Marksman</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases the range of all bow skills <span>5m</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Archery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>480</skillid>
+    <classid>6</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Sharpshooting</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Ranged Critical Rate <span>+3%</span> and Ranged Critical Damage <span>+15%</span>.<br />Deadeye and Float now grant the Feral Mark buff, allowing the caster to inflict Feral Aura on enemies with each attack.<br /><br />Feral Aura:<br />- Reduces target's Defense -40 per stack.<br />- Reduces target's Evasion, Block, and Parry rates -0.5% per stack.<br />- Explodes at max stacks, dealing damage and tripping the target.<br />- Stacks up to 30 times.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Archery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7565</skillid>
+    <classid>6</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Feral Claws</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Archery skill damage <span>+15%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Archery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34092</skillid>
+    <classid>6</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Serpent's Sight</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-2</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>10 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Enhance your archery with Abyssal magic, transforming your attacks and gaining unparalleled range. Increases the base range of all Bow skills to at least <span>50m</span> for <span>[z] сек.</span>, but prevents movement.<br />Replaces the Endless Arrows skill with Fang Bolt for the duration.<br />Duration is reset for every Ranged Attack that hits, but all effects end if the caster receives damage.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34280</skillid>
+    <classid>6</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34288</skillid>
+    <classid>6</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Hunting Pack</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons Snowlion Spectres to charge through enemies in front of you, inflicting <span>[x]-[y]</span> Physical damage and knocking them into the air. Any additional Abyssal Charges are consumed on casting, increasing the damage and number of Snowlions.<br />If cast while at 6 Abyssal Charges, affected enemies are temporarily prevented from using skills.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18413</skillid>
+    <classid>6</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Hateful Hunter</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Charged Bolt, Piercing Shot, Concussive Arrow, Missile Rain, and Snipe each grant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>

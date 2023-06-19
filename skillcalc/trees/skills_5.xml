@@ -1,0 +1,774 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>14810</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Mana Stars</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>6</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Launches your mana as a razor-sharp crystal, dealing <span>[x]-[y]</span> Magic Damage. <br />Each consecutive Mana Star increases in damage <span>+2%</span>, up to a max of <span>20%</span>.<br />Each Mana Star inflicts Fetter on the target, reducing their damage  <span>-1%</span> and move speed <span>-2%</span> per stack. Stacks up to 20 times.<br /><br /><br />Does not cause a global cooldown. Hold down for continuous use.</span></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff114.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Prepare For Battle of Death: Preparing for the combat of death.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12759</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>3</level>
+    <name>Mana Force</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>31</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>60 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Shoves an enemy away, dealing <span>[x]-[y]</span> Magic Damage. Restores Mana equal to <span>half</span> that amount.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff91.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +101% damage on Cursed targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff114.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff141.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts Weakness on targets under the effects of Fetter.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 3<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10135</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Hell Spear</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>177</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>6 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>27 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons spears from the underworld to pierce all enemies within <span><span>[w]</span>m</span>.<br />Deals <span>[x]-[y]</span> Magic Damage and Impales targets for <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hell Spear: Impales for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +48% damage on Impaled targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11441</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Absorb Lifeforce</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>157</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts a debuff which deals <span>[x]-[y]</span> Magic Damage to the enemy over <span>6.5 seconds</span>, healing the caster for half the amount.<br />Inflicts an additional +140% on pets.<br />This debuff ends early if the caster stops channeling, or if the target moves far enough away from the caster.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff276.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Channeling time decreased by -3% per stack of Burning Brand.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +46% damage on Stunned targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11395</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Summon Crows</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>263</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons crows to attack all enemies within <span><span>[w]</span>m</span>. Reduces enemies' Physical Accuracy -30% and deals <span>[x]-[y]</span> Magic Damage over <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts Poison on Impaled targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Decreases both Magic and Physical Accuracy -60% when used on Snared targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10201</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Crippling Mire</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>177</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Forms a painful link with the target, inflicting <span>[x]-[y]</span> continuous Magic damage and decreasing Move Speed <span>-50%</span> for <span>4.5</span> seconds.<br />This attack ends early if the caster is disabled, or if the target moves far enough away from the caster.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +30% damage on Poisoned targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff123.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Distressed targets are Stunned when Crippling Mire ends.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11504</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Telekinesis</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>138</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>60 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Suspends an enemy in the air for up to <span>[z] сек.</span>. Prevents the target from taking any actions, even when taking damage.<br />This spell ends if the caster moves or takes any other action.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10655</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Retribution</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>118</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Lasts <span>[z] сек.</span>. Doesn't trigger a global cooldown.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10665</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Stillness</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>414</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>36 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Interrupts all enemy casting within <span>5 meters</span> and inflicts Silence for <span>[z] сек.</span>. Removes all Fear effects from caster.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff16.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Silence: Silences for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11442</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Urgency</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>526</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>3 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Lasts <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff49.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Urgency (Rank 1): Reduces cooldown for Occultism skills <span>-9 seconds</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10434</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Summon Wraith</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>940</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>7 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>60 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons a Wraith that deals <span>[e]</span> Magic Damage per second for a maximum of <span>9 seconds</span> to all enemies within <span>7 meters</span>. Inflicts enemies with the Wraith Curse, reducing Move Speed, Attack Speed, and Cast Speed.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23591</skillid>
+    <classid>5</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Death's Vengeance</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>1183</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>3 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>As you die, blasts your remaining energy to deal <span>[x]-[y]</span> Magic Damage to enemies within <span>15m</span>.<br />Targets who die within <span>3 seconds</span> of receiving this damage will also explode.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Occultism 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>539</skillid>
+    <classid>5</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Enhanced Mana Recovery</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Post-Cast Mana Regen <span>+7</span> every <span>1 second</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Occultism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>533</skillid>
+    <classid>5</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Reprisal</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Melee, Ranged, and Magic Critical Rates <span>+20%</span> for <span>9 seconds</span> after receiving Critical Damage.<br />This ability has a <span>12 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Occultism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2926</skillid>
+    <classid>5</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Caster's Enrichment</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases health regen <span>-15</span> <span>every second</span> while not in combat and increases mana regen <span>+15</span> <span>every second</span> while not casting.<br />Increases Attack Speed <span>+53</span>.<br />Grants the <span>Burning Brand</span> buff for each enemy hit by Hell Spear, Summon Crows, or Stillness.<br /><br /><br />Burning Brand:<br />- Increases Occultism skill damage +2% per stack.<br />- Decreases channeling time of Absorb Lifeforce -3% per stack.<br />- Lasts 6sec.<br />- Stacks up to 15 times.<br />- Triggers Deathmark Aura at 15 stacks.<br /><br />Deathmark Aura:<br />- Grants all accumulated bonuses of 15 stacks of Burning Brand.<br />- Reduces nearby enemies' damage by -15% <br />- Lasts 12sec.<br />- Prevents gaining stacks of Burning Brand for duration.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Occultism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7561</skillid>
+    <classid>5</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Macabre Reach</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Melee, Ranged, and Magic Critical Damage <span>+10%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Occultism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2970</skillid>
+    <classid>5</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Overpowered Spell Locus</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases all Skill Damage <span>+15%</span> for up to <span>6</span> seconds after receiving damage.<br />Movement cancels the effect.<br />Does not apply to healing skills.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Occultism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>971</skillid>
+    <classid>5</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Intensified Harm</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Melee, Ranged, and Magic Critical Damage <span>+25%</span> for <span>6 seconds</span> after receiving Critical Damage.<br />This ability has a <span>12 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Occultism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7563</skillid>
+    <classid>5</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Death's Beckoning</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases the cooldown of all Occultism skills <span>-20%</span>.<br />Increases Crippling Mire's targets +2 and grants a stack of <span>Burning Brand</span>  for each enemy it hits beyond the first.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Occultism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34171</skillid>
+    <classid>5</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Cursed Thorns</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>19</span></span>
+          <div class="clear"></div>
+          <span class="txt">Abyssal Charges: <span>2-2</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Infects an enemy with cursed seeds for <span>[z] сек.</span>. Causes deadly thorns to sprout in their footsteps after a <span>4 second</span> delay, inflicting <span>[x]-[y]</span> Magic damage on surrounding enemies as they burst from the ground. Slows any enemies that pass through the area, and deals continuous magic damage. Seeds sprout early if enemies step on them.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34230</skillid>
+    <classid>5</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34091</skillid>
+    <classid>5</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Shadow Circle</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-50 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>30 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>20 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons a Shadow Circle for <span>[z] сек.</span>, allowing the caster to teleport in front of any target within the circle. Any additional Abyssal Charges are consumed on casting, increasing the number of times the caster can teleport. If cast while at 6 Abyssal Charges, the caster may teleport an unlimited number of times for the duration of the spell.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18373</skillid>
+    <classid>5</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Gleeful Destruction</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Mana Force, Hell Spear, Absorb Lifeforce, Summon Crows, and Crippling Mire each grant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>

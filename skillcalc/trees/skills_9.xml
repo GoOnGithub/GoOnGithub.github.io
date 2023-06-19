@@ -1,0 +1,757 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>11973</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Critical Discord</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>17</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Deals <span>[x]-[y]</span> Magic Damage. Increases Critical Hit Rate and Critical Healing <span>+2%</span> for <span>3 seconds</span>.<br /><br /><br />Hold down for continuous use.</span></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Consumes Charm effect on target to inflict Fear.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11934</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>5</level>
+    <name>Startling Strain</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>26</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Stuns an enemy for <span>[z] сек.</span> with a special performance. After the Stun ends, the enemy is Charmed and susceptible to other Songcraft skill effects. Reduces caster's Cast Time <span>-20%</span> for <span>5 seconds</span>. Does not stop a performance skill.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Corrosion: The stench of decay is drifting everywhere.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff76.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases the duration of Charmed +50% on targets with Dissonance.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 5<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10723</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>[Perform] Quickstep</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>59</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>2 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Plays a lighthearted song for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Charmed targets are Slowed.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11943</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Dissonance</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>72</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Plays clashing sounds to weaken and slow all enemies in a 5m radius.<br />- Reduces Skill Damage <span>-20%</span><br />- Reduces Attack Speed <span>-250</span>.<br />- Increases Cast Time <span>+20%</span>.<br />- Reduces Magic Defense <span>-320</span>.<br />- Deals <span>[x]-[y]</span> Magic Damage after <span>[z] сек.</span> seconds.<br />- Does not stop Perform skills.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>17413</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Healing Hymn</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>369</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-30 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>15 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Plays a healing song that instantly restores +<span>[x]-[y]</span> Health to an ally.<br />The effect can travel to another 2 allies within <span>10m</span> as long as they are not pets. Can continue to be transferred up to <span>3 times</span>. <br />Does not stop performance skills.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11377</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Hummingbird Ditty</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>8 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Applies to caster and nearby raid members for <span>30 minutes</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10724</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>[Perform] Ode to Recovery</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>276</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>2 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Plays a healing song for you and your allies for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-20%</span> during the performance.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts damage over time on Charmed targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff76.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Dissonance: Decreases an enemy's healing -10%.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11948</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Rhythmic Renewal</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>999</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>90 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons a healing spring that restores <span>+<span>[h]</span></span> health to caster and all nearby allies every second for <span>60 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11396</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>[Perform] Bulwark Ballad</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>295</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>2 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Plays a song of the earth for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Decreases Physical/Magic Defense -50% on Charmed targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10727</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>[Perform] Bloody Chantey</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>328</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>2 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Plays a lively song for you and your allies for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Decreases all skill damage -20% on Charmed targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff76.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Dissonance: Decreases all accuracy -10%.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11961</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Alarm Call</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>361</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Lifts Stun and Sleep debuffs and grants immunity to allies within a <span>9m</span> range every second for <span>[z] сек.</span>. Canceled by using another skill.<br />Can be used while Stunned.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23595</skillid>
+    <classid>9</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>[Perform] Grief's Cadence</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>394</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>2 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Plays a song of penitence for you and your allies for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff76.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Dissonance: Decrease an enemy's Block and Evasion -10%.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases debuff effects on Charmed targets +30%.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Songcraft 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>1173</skillid>
+    <classid>9</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Syncopation</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases the cast delay and the chance of interruption when hit <span>-50%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Songcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>3840</skillid>
+    <classid>9</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Hold the Note</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases the performance time of Quickstep, Ode to Recovery, Bloody Chantey, Bulwark Ballad, and Grief's Cadence <span>+15 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Songcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>781</skillid>
+    <classid>9</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Uptempo</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Cast Time for all skills <span>-5%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Songcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7574</skillid>
+    <classid>9</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Disciplined Performance</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Received Magic Damage <span>-30%</span> for <span>3 seconds</span> when Magic Critical Damage is received.<br />This ability has a <span>20 sec</span> cooldown once triggered.<br />Performance skills also grant the <span>Rhythm</span> buff every 3 seconds.<br /><br />Rhythm:<br />- Increases Healing Power and Magic Attack <span>+7</span> per stack.<br />- Decreases Songcraft Cooldowns <span>-0.4 seconds</span> per stack.<br />- Lasts 9 seconds.<br />- Stacks up to 15 times.<br />- Resets the cooldown of Startling Strain whenever a target you have Charmed is killed.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Songcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>1156</skillid>
+    <classid>9</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Loudspeaker</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases the range for Quickstep, Ode to Recovery, Bloody Chantey, Bulwark Ballad, and Grief's Cadence to <span>22m</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Songcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7577</skillid>
+    <classid>9</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Allegretto</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Stun and Silence duration <span>-10%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Songcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>494</skillid>
+    <classid>9</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Zeal</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Every successful Critical Damage/Critical Healing effect increases all Critical Rates (including Healing) <span>+5%</span> and all Critical Damage/Critical Healing <span>+75%</span> for <span>6 seconds</span>.<br />This ability has a <span>12 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Songcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34095</skillid>
+    <classid>9</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Abyssal Echoes</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>3-3</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>16 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Ends all currently active Perform skills, but creates diminished echoes of those abilities for up to <span>10 seconds</span>. These echoes only affect the caster, and are not interrupted by casting non-perform skills. Using additional Perform skills during this time will end the echoes early.<br />As this skill levels up, the effects of the echoes improve.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34283</skillid>
+    <classid>9</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34314</skillid>
+    <classid>9</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Polymorphic Resonance</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-2</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>For up to <span>25 seconds</span>, grants temporary immortality to allies within a <span>15m</span> radius. When subjected to fatal damage, affected allies instead transform into animals and recover a small amount of Health, becoming temporarily immune to all debuffs.<br />This spell has an initial duration of 3 seconds, and consumes any additional Abyssal Charges over time to extend the duration 3 seconds per charge. If cast while at 6 Abyssal Charges, it has an initial duration of 5 seconds and each extra charge extends the duration 5 seconds instead.<br />Effect ends when no charges remain or another ability is used.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_battle_pet21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>370724 DO NOT TRANSLATE: 370725 DO NOT TRANSLATE</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18416</skillid>
+    <classid>9</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Seething Songs</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Startling Strain, Dissonance, Healing Hymn, Rhythmic Renewal, and Alarm Call each gant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>
