@@ -8,8 +8,6 @@ import { fileURLToPath, URL } from 'node:url'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  publicPath: '/project name/',
-  //base:'/AACCalc/',
   plugins: [
     vue({ 
       template: { transformAssetUrls }
@@ -22,6 +20,7 @@ export default defineConfig({
       },
     }),
   ],
+  publicPath: process.env.NODE_ENV === 'production' ? '/my-project/' : '/',
   define: { 'process.env': {} },
   resolve: {
     alias: {
@@ -39,7 +38,5 @@ export default defineConfig({
   },
   server: {
     port: 6789,
-    host: "0.0.0.0",
-    disableHostCheck: true
   },
 })
