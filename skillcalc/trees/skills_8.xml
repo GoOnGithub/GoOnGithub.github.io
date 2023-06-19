@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>18125</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Rapid Strike</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>7</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>A swift, repeatable attack, dealing <span>[x]-[y]</span> Physical Damage to a single target.<br />Marks the target with each hit, reducing their Skill Damage <span>-1%</span> and Move Speed <span>-2%</span> per stack. Inflicts Shaken each time it reaches 5 stacks, further reducing their Skill Damage, Move Speed, and Attack Speed.<br />Backstabbing increases Melee Critical Rate <span>+50%</span>.<br /><br /><br />Does not trigger a global cooldown. Hold down for continuous use.</span></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +23% damage on Tripped targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10648</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>3</level>
+    <name>Overwhelm</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>21</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Triggers a leap toward an enemy that deals <span>[x]-[y]</span> Physical Damage and stacks <span>1</span> Bloodthirst upon landing. Also Stuns the enemy for <span>[z] сек.</span>. Can't be used while Snared.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff57.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases Stun duration +1 second on Stalker's Marked targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff57.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +77% damage on Stalker's Marked targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 3<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12049</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Drop Back</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>13</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Triggers a backwards leap to escape a dangerous area or back away from an enemy. Eliminates the Cast Time for Flamebolt, Earthen Grip, and Sunder Earth for <span>[z] сек.</span>. <br />Can't be used while Snared.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12029</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Wallop</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Launches four attacks in quick succession dealing <span>[x]-[y]</span> Physical Damage.<br />The first attack interrupts the target.<br />Every successful attack decreases Physical Defense -<span>120</span>.<br />Grants Bloodthirst for each of the first three attacks, then the fourth deals melee damage equal to <span>[m]</span> times your stacked Bloodthirst.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff05.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Your cover is blown!: Switches to Illion Army. Debuff. Used during Clovia's rescue (Elf's Main Quest: Ezna)</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +11% damage on Shaken targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff340.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff341.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fourth attack triggers Blood Frenzy if used while at maximum stacks of Bloodthirst.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12139</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Stalker's Mark</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>82</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>27 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts <span>[x]-[y]</span> Ranged Damage and marks enemies for <span>[z] сек.</span>. <br />Mark Effect:  <br />Damage reduced -20% if target is within 8m.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff57.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Stalker's Mark (Rank 1): Decreases received healing <span>-60%</span>.
+Deals damage equal to <span>50</span> times the number of attacks suffered during the mark's duration when it expires.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +38% damage on Poisoned targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10082</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Stealth</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Prevents enemies from seeing you. Any actions other than moving will cause stealth to end.<br /></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff69.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>62600 DO NOT TRANSLATE: Decreases Move Speed -30% during Stealth.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10481</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Toxic Shot</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>87</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>9 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires a toxic arrow, dealing an initial <span>[x]-[y]</span> Ranged Damage and then Poisoning the target for <span>[b]</span> Magic Damage over <span>[z] сек.</span>.<br />Damage reduced <span>-20%</span> if target is within <span>8m</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Venom: Deals <span>[x]-[y]</span> damage over time.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>13344</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Pin Down</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>92</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>21 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Pins an enemy to the ground, dealing <span>[x]-[y]</span> Physical Damage. Direct hits stack up to <span>3</span> Bloodthirst.<br />Backstabbing adds Bleeding on a target.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Bleeding: Inflicts Bleed for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +42% damage on Shackled targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10496</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Shadowsmite</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>147</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Launches a surprise attack, dealing Melee Physical damage equal to <span>[m]</span> times your stacked Bloodthirst and Shackling your target for <span>[z] сек.</span>.<br />Backstabbing adds Physical Damage equal to <span>400%</span> of Melee Attack.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shackle: Disables Melee and Ranged skills for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Stunned targets are Tripped for 2.5 sec.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff69.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +98% damage when the caster is Stealthed. (Does not apply to Bloodthirst damage.)</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff341.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Resets Stealth cooldown if used while under the effects of Bloodthirst Explosion.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10189</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Freerunner</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>197</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>90 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Lasts <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12075</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Shadow Step</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>72</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Teleports caster behind an ally or enemy, reducing Aggro -50% for <span>[z] сек.</span>.<br />Increases Move Speed +50% for <span>3 seconds</span> after casting.<br />Can't be used while Snared, and does not allow the caster to pass through obstacles.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23594</skillid>
+    <classid>8</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Throw Dagger</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>315</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>35 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Flings a dagger that deals <span>[x]-[y]</span> damage to a single enemy, then ricochets to 5 additional enemies within a <span>7m</span> radius of the initial target, dealing less damage each hit.<br />Enemies hit:  <br />Lasts <span>[z] сек.</span>.<br />Grants <span>1</span> stack of Bloodthirst for each target hit, up to a maximum of <span>6</span> stacks.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_vocation28.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Dagger: Decreases Attack Speed -<span>[m]</span> and Move Speed <span>-60%</span>, and increases Cast Time<span>+60%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff57.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Stalker's Marked targets grant double Bloodthirst.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_vocation15.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases range by 10m if used while under the effects of Drop Back.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Shadowplay 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>560</skillid>
+    <classid>8</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Evasive Counterstrike</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Triggers a counterattack when a Melee Attack is evaded.<br />Stacks 2 Bloodthirst when attacked.<br />This ability has a <span>12 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Shadowplay <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>488</skillid>
+    <classid>8</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Consecutive Evasion</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Melee Evasion <span>+18%</span> for <span>7 seconds</span> after a successful Evasion against melee attacks.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Shadowplay <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>863</skillid>
+    <classid>8</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Disregard</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Permanently decreases Aggro generation <span>-20%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Shadowplay <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7570</skillid>
+    <classid>8</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Loophole</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases received Ranged Damage <span>-30%</span> for <span>3 seconds</span> after receiving a Ranged Critical Hit.<br />This ability has a <span>20 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Shadowplay <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>483</skillid>
+    <classid>8</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Piercing</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Melee and Ranged Critical Rates <span>+10%</span> and Attack Speed <span>+31</span> for <span>8 seconds</span> after a successful Melee or Ranged Critical hit.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Shadowplay <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>1548</skillid>
+    <classid>8</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Bloodthirst Intensified</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases accumulated Bloodthirst <span>+2</span> times.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Shadowplay <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7572</skillid>
+    <classid>8</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Shadow Mastery</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Shadowplay skill cooldown <span>-20%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Shadowplay <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34094</skillid>
+    <classid>8</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Venom Blades</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-2</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>14 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Throws venomous knives at all enemies within a #{buff_tooltip2} radius, dealing an initial <span>[x]-[y]</span> Physical Damage and inficting the Deadly Poison debuff. </p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_hatred36.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Deadly Poison: Inflicts <span>[x]-[y]</span> Magic damage for <span>[z] sec.</span>, ignoring Magic Defense.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34282</skillid>
+    <classid>8</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34300</skillid>
+    <classid>8</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Assassination</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>10 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Shadowplay Skill Damage by +12% for <span>4sec</span>, and causes the caster to become impossible to target during that time.<br />Can only be used when the caster is invisible. <br />Additional Abyssal Charges are consumed on casting, extending the duration to a maximum of 8sec.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18415</skillid>
+    <classid>8</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Murderous Intent</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Wallop, Stalker's Mark, Toxic Shot, Shadowsmite, and Throw Dagger each gant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>
