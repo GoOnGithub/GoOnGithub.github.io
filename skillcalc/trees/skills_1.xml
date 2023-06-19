@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>18132</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Triple Slash</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>9</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>A constant pattern of <span>3 distinct strikes</span>, each dealing <span>[x]-[y]</span> Physical Damage and inflicting different effects.<br />Attack 1: Shakes enemy for <span>[z] сек.</span>.<br />Attack 2: Deals additional damage to Tripped enemies.<br />Attack 3: Increases Melee damage <span>+30%</span> and hits multiple enemies in front of you.<br /><br /><br />Does not trigger a global cooldown. Hold down for continuous use.</span></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>First attack: Snared targets are Tripped for 2.5 sec.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Second attack: Inflicts additional +48% damage on Tripped targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff26.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases threat generation +300% if used while under the effects of Toughen.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11918</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>3</level>
+    <name>Charge</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>21</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-12 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Launches a rush toward an enemy that deals <span>[x]-[y]</span> Physical Damage and inflicts Snare for <span>[z] сек.</span>.<br />Snare duration reduced <span>-50%</span> in PvP.<br />Can't be used while Snared.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +26% damage on Slowed targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 3<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>13282</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Whirlwind Slash</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>A spinning attack with up to <span>3 distinct strikes</span>, each dealing <span>[x]-[y]</span> Physical Damage to many nearby enemies.<br />Attack 1: Deals additional damage to Shaken targets, and Trips Slowed targets<br />Attack 2: Deals additional damage to Tripped targets.<br />Attack 3: Shoves nearby targets away from you.<br />No cooldown between strikes. Hold down for continuous use.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slowed targets are Tripped for 3 sec.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases duration of Tripped +30% on Enervated targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Second attack: Inflicts additional +29% damage on Tripped targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +12% damage on Shaken targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10644</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Sunder Earth</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>139</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>9 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>21 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Smashes open a fault line in front of you, dealing <span>[x]-[y]</span> Physical damage to all enemies in its path and decreasing their Move Speed <span>-60%</span> for <span>[z] сек.</span>.<br />All allies in the area of effect gain Earth Energy, decreasing received damage <span>-30%</span> for up to <span>7 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff26.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff120.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Provokes targets if used while under the effects of Toughen.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +47% damage on Tripped targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12039</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Lasso</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>32</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Pulls a distant enemy to your position. This ability also Taunts the target, forcing affected monsters to attack you for <span>4 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff28.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Taunt: Forces enemies to focus on the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18308</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Terrifying Roar</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>71</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Weakens all enemies within <span><span>[w]</span>m</span> for <span>[z] сек.</span>. <br />Also Toughens the caster for the same amount of time, reducing the duration of those debuffs.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12034</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Bondbreaker</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>23</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Removes all Snared, Slowed, and Lassitude effects from the caster, and grants immunity to these effects for <span>[z] сек.</span>. Can only be used while under one of these effects.<br />Can be used during global cooldown, and does not trigger a global cooldown.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12026</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Precision Strike</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>105</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>21 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Delivers a powerful attack that deals <span>[x]-[y]</span> Physical Damage.<br /></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +37% damage on Bleeding targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10455</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Frenzy</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>295</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>90 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Melee Attack and Magic Attack <span>+30</span> whenever damage is received, and absorbs <span>21%</span> of received Magic Damage.<br />Increases Move Speed <span>+5%</span> and reduces Physical Defense <span>-10%</span> each time you damage an enemy.<br />Decreases Battlerage Mana Cost <span>-50%</span>.<br />Effect lasts for <span>[z] сек.</span>, but increases by +<span>[z] сек.</span> per kill. Stuns you for <span>4 seconds</span> when Frenzy ends.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff49.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>You are not exhausted when under the effect of Urgency.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10377</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Battle Focus</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>98</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>42 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p><br />Doesn't trigger a global cooldown.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>13315</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Tiger Strike</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>277</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Launches a rush past an enemy dealing <span>[x]-[y]</span> Physical Damage.<br />Repeats up to 5 times if other enemies are nearby.<br />Can't be countered with Evasion, Block, or Parry.<br />Can't be used while Snared.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +13% damage on Shaken targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_fight31.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff123.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts Distressed on targets if used while under the effects of Delirium.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23587</skillid>
+    <classid>1</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Behind Enemy Lines</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>315</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>8-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>21 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Triggers a high leap that lands at a designated site, dealing <span>[x]-[y]</span> Physical Damage and Snaring nearby enemies for <span>[z] сек.</span>.<br />Cancels Bubble Trap, Petrify, and Telekinesis effects.<br />Can't be used while Snared.<br />Snare duration reduced <span>-</span><span>50%</span> in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff123.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Distresses Snared targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Battlerage 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>481</skillid>
+    <classid>1</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Weapon Maneuvers</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Melee Attack <span>+5%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Battlerage <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>831</skillid>
+    <classid>1</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Dual-Wield Proficiency</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>When dual-wielding, Parry deflects Ranged Attacks as well.<br />Increases Melee Crit Rate <span>+8%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Battlerage <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>811</skillid>
+    <classid>1</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Attack Speed Training</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases the cooldown of Battlerage skills<span>-10%</span>. Grants one stack of <span>Delirium</span> for every Battlerage Critical Hit, and for every enemy hit by the 3rd attack of Whirlwind Slash.<br /><br />Delirium:<br />- Melee Skill Damage <span>+2%</span>.  <br />- Melee Critical Damage <span>+5%</span> .<br />- Stacks up to 5 times. <br />- Grants a <span>5%</span> chance of inflicting Bleed on targets.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Battlerage <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2610</skillid>
+    <classid>1</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Deflect and Retaliate</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Permanently increases Parry rate <span>+2%</span>; each successful parry resets the cooldown on all Battlerage attack skills.<br />This ability has a <span>12sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Battlerage <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7542</skillid>
+    <classid>1</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Reckless Charge</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Using Charge, Tiger Strike, or Behind Enemy Lines decreases received Physical Damage <span>-15%</span>, and decreases the duration of Shackle, Slow, Snare, and Impale <span>-35%</span> for 4 seconds.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Battlerage <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2621</skillid>
+    <classid>1</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Puncture</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Melee Critical attacks decrease the target's Physical Defense <span>-2000</span> for <span>5 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Battlerage <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7544</skillid>
+    <classid>1</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Weapon Mastery</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Battlerage skill damage <span>+15%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Battlerage <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34124</skillid>
+    <classid>1</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Soulbound Blades</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-2</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-12 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>4 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Throws otherworldly blades that surround the target, dealing damage to the target (if cast on an enemy) and all nearby enemies. </p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34119</skillid>
+    <classid>1</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34120</skillid>
+    <classid>1</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Swordfall</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>4 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>8 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>14 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Call down swords from the sky to Impale enemies in front of you, dealing up to <span>[x]-[y]</span> Physical Damage. Use this skill again to stop channeling early. The longer you channel, the more damage will be dealt. <br />If cast while at 6 Abyssal Charges, additional swords are summoned, inflicting more damage the closer an enemy is to the center of the effect.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hell Spear: Impales for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18372</skillid>
+    <classid>1</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Raging Berserker</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Charge, Precision Strike, Tiger Strike, Behind Enemy Lines, and the third hit of Whirlwind Slash each grant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>

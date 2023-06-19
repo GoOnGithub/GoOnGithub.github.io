@@ -1,0 +1,846 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>10399</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Shield Slam</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>13</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Swings your shield at an enemy, dealing #{avg_damage} #{detail_melee_damage} Physical Damage and Stunning them for <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases duration of Stun +30% on Enervated targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff42.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +61% damage if used while under the effects of Energy Shield.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +31% damage on Snared targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10645</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>5</level>
+    <name>Refreshment</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>26</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>8 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Only works on caster.<br />While active, you gain 10% of received damage as stacks of Mettle.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff121.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Effect increases +20% while under Bear's Vigor.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 5<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10501</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Bull Rush</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>49</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Shoves an enemy away with your shield, inflicting <span>[x]-[y]</span> Physical Damage and Silencing the target for <span>[z] сек.</span>. Interrupts enemy spellcasting. Increases Aggro generation +<span>200%</span> for <span>5 seconds</span> afterwards.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff16.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Silence: Silences for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Stunned targets are Tripped for 4 sec.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +42% damage on Stunned targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff42.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +68% damage if used while under the effects of Energy Shield.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12048</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Boastful Roar</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts Distressed for <span>[z] сек.</span>, reducing the enemy's Move Speed <span>-45%</span>, Skill Damage <span>-20%</span>, Attack Speed <span>-250</span>, and healing effectiveness  <span>-60%</span>.<br />Inflicts additional damage equal to <span>60%</span> of your stacked Mettle, consuming all stacks of Mettle when cast.<br />This ability also Provokes the target, forcing affected players to target you and affected monsters to attack you.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff120.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Provoked: Increases the taunted target's Aggro to the max.
+Grants immunity to all stronger Taunts.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff123.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Distressed: Decreases Move Speed <span>-45%</span>; decreases Skill Damage <span>-20%</span>, Attack Speed -<span>[m]</span>, and Healing Effectiveness <span>-60%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_adamant06.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts +60% damage if used while under the effects of Toughen.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11365</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Toughen</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>49</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>60 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Lasts <span>[z] сек.</span>.<br />While active, you gain 50% of received damage as stacks of Mettle.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff121.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Healing effectiveness increased +33% while under Bear's Vigor.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12046</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Revitalizing Cheer</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>47</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Restores +<span>[x]</span> Health plus an amount equal to <span>50%</span> of your stacked Mettle.<br />Consumes all stacked Mettle and cures one debuff.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_adamant06.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Effect increases +25% if used while under the effects of Toughen.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10375</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Redoubt</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>92</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>60 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Raises a shield around the caster for <span>[z] сек.</span>. <br />Instantly grants Mettle in proportion to the skill's level.<br />Prevents being Pushed or Tripped.<br />Can only be used while a shield is equipped.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff29.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Redoubt (Level 1): Increases Block Rate <span>+25%</span> and decreases Move Speed <span>-10%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18757</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Ollo's Hammer</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>420</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-15 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>42 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons Ollo's hammer and hurls it toward a location; inflicts Trip on an enemy for <span>[z] сек.</span> if it hits.<br />Also deals <span>[x]-[y]</span> Physical Damage to all enemies within <span>3m</span> of the target location.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Tripped: Knocked down by an attack.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +44% damage on Slowed targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hammer travels much faster when used on Electric Shock targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10436</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Mocking Howl</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>118</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>7 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts Shaken on all enemies within a <span><span>[w]</span>m</span> radius, decreasing their Move Speed <span>-27%</span>, Skill Damage <span>-8%</span>, and Attack Speed <span>-75</span>. This ability also Taunts enemies, forcing affected monsters to attack you.<br />Builds additional Aggro equal to <span>100%</span> of your stacked Mettle, consuming all stacks of Mettle when cast.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff28.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Taunt: Forces enemies to focus on the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff26.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases threat generation +200% if used while under the effects of Toughen.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff28.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff120.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Provokes Taunted targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff26.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff123.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts Distressed on targets if used while under the effects of Toughen.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>14529</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Imprison</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>328</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Imprisons all enemies within a boundary for <span>12 seconds</span>. Enemies can break out if they use enough force.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10372</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Invincibility</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>433</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Grants immunity to all damage for <span>[z] сек.</span>.<br />Effect is canceled if you move.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23589</skillid>
+    <classid>3</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Fortress</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>394</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Shoves away up to 5 enemies within <span>10m</span> and pulls 5 raid members closer. Decreases pulled raid members' received damage -<span>50%</span> and increases your Mettle +1,500. Effective regardless of a target's status.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Defense 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>812</skillid>
+    <classid>3</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Supplemental Block</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Block Rate <span>+15%</span> for <span>5 seconds</span> after a successful Block.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Defense <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>490</skillid>
+    <classid>3</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Shield Edge</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Has a small chance to stun the attacker when blocking a melee attack. <br />This ability has a <span>12 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Defense <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7550</skillid>
+    <classid>3</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Shield of Steel</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Physical Defense <span>+900</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Defense <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>830</skillid>
+    <classid>3</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Guardian</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Permanently increases Aggro generation <span>+50%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Defense <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7549</skillid>
+    <classid>3</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Spry Fortress</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Stun and Tripped duration <span>-10%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Defense <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2753</skillid>
+    <classid>3</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Bear's Vigor</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases max health <span>+900</span>. Increases the effectiveness of Refreshment <span>+20%</span> and Toughen <span>+33%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Defense <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7551</skillid>
+    <classid>3</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Ursine Roar</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases the cooldown of Defense skills <span>-20%</span>.<br />Increases Continuous Health Regen based on <span>Stamina</span> whenever damage is received while below <span>30%</span> health.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Defense <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34089</skillid>
+    <classid>3</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Shield Throw</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-2</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>0.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>22 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Hurls your shield at the target, dealing <span>[x]-[y]</span> Physical Damage.<br />Has a 100% chance to Critical Strike. Temporarily removes all benefits of your shield while the projectile is in the air. Inflicts Disarm on targets that Parry the attack, removing all benefits of their weapon for <span>[z] сек.</span>. #{buff_tooltip2}</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff36.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Rotten Flesh Golem's Slam: Blown into the air by the powerful shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34278</skillid>
+    <classid>3</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34148</skillid>
+    <classid>3</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Cruel Binding</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>0.2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Tethers an enemy's soul to a location for <span>[z] сек.</span>, pulling them back to that spot every time they attempt to move further than <span>10m</span> away.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18411</skillid>
+    <classid>3</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Indomitable Rage</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Shield Slam, Bull Rush, Revitalizing Cheer, Mocking Howl, and Boastful Roar each grant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>

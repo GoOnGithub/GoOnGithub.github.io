@@ -1,0 +1,890 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>10752</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Flamebolt</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>16</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Deals <span>[x]-[y]</span> Magic Damage to an enemy.<br />Can be used up to <span>3 times</span> in a row without triggering a cooldown.<br />Attack 1: Inflicts Burning for <span>[z] сек.</span>.<br />Attack 3: Converts <span>20%</span> of damage dealt to Enervated enemies to mana; inflicts Conflagration on Burning enemies. <br />All 3 attacks deal <span>+12%</span> additional damage to targets under freezing effects.<br /><br /><br />Hold down for continuous use.</span></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff126.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts Conflagration on Burning targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Returns 20% of damage dealt to Enervated targets as Mana.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +12% damage on targets under freezing effects.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10667</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>3</level>
+    <name>Freezing Arrow</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>47</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>6 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires an Ice Arrow at an enemy, dealing <span>[x]-[y]</span> Magic damage and decreasing Move Speed for <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Freeze: Freezes, then gradually thaws.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +15% damage on Burning targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts Deep Freeze for 20 sec on targets under freezing effects. Duration reduced 50% in PvP.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff19.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +34% damage on Sleeping targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff65.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Eliminates the cast time of Freezing Arrow for the duration of Frigid Tracks.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 3<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10153</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Insulating Lens</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>56</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Creates a protection ward around the caster.  Increases stealth detection <span>+200%</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10670</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Arc Lightning</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>249</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>20 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires lightning bolts to deal <span>[x]-[y]</span> Magic Damage and Shock an enemy.<br />Deals <span>[b]</span> Magic Damage over <span>[z] сек.</span> to Shocked enemies; also Shocks all other enemies within <span>2m</span>. When this skill levels up, it increases damage, but also cast time.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Electric Shock: Inflicts <span>[x]-[y]</span> Magic Damage on you and allies within <span>2m</span> over <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff50.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +45% damage on Impaled targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +43% damage on Electric Shock targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10151</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Freezing Earth</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>394</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-8 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>8 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>36 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Deals <span>[x]-[y]</span> damage to all enemies within <span>8 meters</span> with a chance to Snare for <span>[z] сек.</span>.<br />Snare duration reduced <span>-50%</span> in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Freeze: Freezes, then gradually thaws.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +26% damage on Burning targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts Ice Shard on targets under freezing effects, snaring them for 4 sec.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Freezes Tripped targets, slowing them for 4 sec.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11939</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Searing Rain</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>591</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>39 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Rains down fire on all enemies in a <span>10-meter</span> radius for <span>7 seconds</span>, dealing <span>[x]-[y]</span> Magic Damage.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +44% damage on targets under freezing effects.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11314</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Frigid Tracks</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>184</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Freezes your footprints for <span>[z] сек.</span>. The ice Freezes any enemies who step on it, but melts in <span>4 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Freeze: Freezes, then gradually thaws.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12796</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Magic Circle</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>236</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>21 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons a Magic Circle around the caster for <span>20 seconds</span>.<br /></p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11967</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Chain Lightning</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>562</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>36 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires lightning bolts to deal <span>[x]-[y]</span> Magic Damage and Shock an enemy. May also affect other enemies within <span>5 meters</span>.<br />Can strike up to <span>5 times</span>, dealing <span>-50%</span> less damage with each subsequent hit.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Electric Shock: Inflicts <span>[x]-[y]</span> Magic Damage on you and allies within <span>2m</span> over <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff50.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +30% damage on Impaled targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>14774</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Flame Barrier</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>328</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>33 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Calls forth a wall of fire that deals <span>[b]</span> Fire Damage and Slows for <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +41% damage on targets under freezing effects.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10664</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Meteor Strike</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>1663</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Calls down a meteor, dealing <span>[x]-[y]</span> Magic Damage to all enemies in the target area.<br />Also inflicts Tripped on all enemies hit for <span>2.5 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Tripped: Knocked down by an attack.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +30% damage on targets under freezing effects.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23593</skillid>
+    <classid>7</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Gods' Whip</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>268</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-22 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>6 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Calls down lighting on a target area to deal <span>[x]-[y]</span> Magic Damage to enemies in a <span>6m</span> radius; inflicts Electric Shock on enemies within a <span>5m</span> radius.<br />Can be used consecutively up to 5 times, with each attack dealing more damage but costing more mana.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Electric Shock: Inflicts <span>[x]-[y]</span> Magic Damage on you and allies within <span>2m</span> over <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Sorcery 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>536</skillid>
+    <classid>7</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Mana Pool Increase</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases max mana <span>+20%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Sorcery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>962</skillid>
+    <classid>7</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Magic Range Boost</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases the range for Sorcery skills <span>+5m</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Sorcery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>964</skillid>
+    <classid>7</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Efficient Sorcery</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases the mana cost for Sorcery skills <span>-20%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Sorcery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7566</skillid>
+    <classid>7</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Mana Flurry</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Cast Time for all skills -<span>6%</span>.<br />Grants the <span>Mana Fountain</span> effect each time Flamebolt's third attack, Frigid Tracks, or Magic Circle is used.<br /><br />Mana Fountain:<br />- Increases attack speed +2% per stack.<br />- Decreases Cast Time -2% per stack.<br />- Decreases Sorcery Cooldowns -2% per stack.<br />- Decreases Physical Defense -3% per stack.<br />- Stacks up to 8 times.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Sorcery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7567</skillid>
+    <classid>7</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Recuperation</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases the duration of Sleep and Fear -<span>10%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Sorcery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>963</skillid>
+    <classid>7</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Magic Precision</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Magic Critical Rate <span>+10%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Sorcery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2910</skillid>
+    <classid>7</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Aranzeb's Infusion</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Sorcery skill damage <span>+15%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Sorcery <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34093</skillid>
+    <classid>7</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Void Leap</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>1-1</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Teleport to a random location  away.<br />No cooldown. Spend Abyssal Charges to cast repeatedly.<br />Can't be used while Snared.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34281</skillid>
+    <classid>7</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34291</skillid>
+    <classid>7</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Serpent Strike</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>6 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>22 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons a magical serpent that burrows underground, erupting beneath the target to inflict up to <span>[x]-[y]</span> Magic Damage.<br />Can use anywhere from 1-6 Abyssal Charges once channeling begins, increasing the damage dealt with each additional charge used.<br />Use this skill again during channeling to stop channeling early.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18414</skillid>
+    <classid>7</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Wrathful Casting</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Freezing Arrow, Arc Lightning, Searing Rain, Chain Lightning, and Meteor Strike each grant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>
