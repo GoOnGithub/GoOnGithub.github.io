@@ -1,0 +1,832 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>14376</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Earthen Grip</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>14</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Calls forth a hand from the ground to hold an enemy, inflicting Snare for <span>[z] сек.</span>.<br />Deals <span>[x]-[y]</span> Magic Damage on expiration.<br />Being damaged by a direct attack will free the target early, but debuffs that deal damage over time will not end this effect.<br />Snare duration reduced <span>-50%</span> in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts magic damage on Snared targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Deals 141% magic damage to Enervated targets and returns it as health to caster.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10159</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>5</level>
+    <name>Enervate</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>27</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Deals <span>[x]-[y]</span> Magic Damage and burns <span>[f]</span> mana over <span>[z] сек.</span>. Decreases healing effectiveness <span>-60%</span> and increases duration of Stun and Trip <span>+30%</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Enervated: Decreases mana <span>#{total_min_mana_burn}-#{total_max_mana_burn}</span> for <span>[z] sec.</span>. Decreases healing effectiveness <span>-60%</span>. Increases the duration of Stun and Trip <span>+30%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff119.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts +55% damage on Feared targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts damage over time on Stunned targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 5<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10154</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Bubble Trap</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>24</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>39 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Traps an enemy inside a bubble for <span>[z] сек.</span> and slowly lifts it into the air. <br />Enemies in bubbles can't attack, but take -50% less Magic Damage.<br />Being damaged by a direct attack will free the target early, but debuffs that deal damage over time will not end this effect.<br />Bubble duration reduced <span>-50%</span> in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Burning targets are thrown higher.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional magic damage on Electrocuted targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10409</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Insidious Whisper</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>52</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts Fear on an enemy and causes it to flee from the caster for <span>[z] сек.</span>.<br />Being damaged by a direct attack has a chance to free the target early, but debuffs that deal damage over time will not end this effect.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff119.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fear: Horrifies the target, making them flee from the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases duration of Fear +1.5 seconds on Burning targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10712</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Purge</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>57</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Allies: Removes <span>1</span> negative effect. <br />Enemies: Removes <span>1</span> buff.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff16.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shackled targets are Silenced for 4sec.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff16.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Silenced targets are Shackled for 4sec.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10488</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Play Dead</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>98</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Allows caster to play dead to escape danger. Caster can revive at any time. Restores <span>1%</span> of the caster's health and mana every second if they are below 30%. Effect ends with movement.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11424</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Courageous Action</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>69</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>9 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Awakens caster or an ally and grants immunity to Sleep for <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10134</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Lassitude</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>89</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Magically fatigues the target, causing them to fall asleep for <span>[x] сек.</span> after a <span>[z] сек.</span> delay. Enemies will wake upon taking damage. Sleep duration reduced <span>-50%</span> in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff19.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sleep: Sleeping.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases duration of Sleep +10 seconds on targets under freezing effects.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>12001</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Banshee Wail</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>355</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Causes Fear in all nearby enemies for <span>[z] сек.</span>, forcing them to flee and Stunning them for <span>2 seconds</span>.<br />Being damaged by a direct attack has a chance to free the target early, but debuffs that deal damage over time will not end this effect.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff119.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fear: Horrifies the target, making them flee from the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases duration of Fear +2 seconds on Burning targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11353</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Focal Concussion</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>427</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-8 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>27 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Deals <span>[x]-[y]</span> Magic Damage and Stuns an enemy for <span>[z] сек.</span>.<br />If the target has any positive buffs, Focal Concussion removes one buff and deals additional damage when the Stun ends.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11443</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Dahuta's Breath</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>433</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>21 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Sends forth a wave that deals <span>[x]-[y]</span> Magic Damage and pushes enemies back.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +46% damage on Electric Shock targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23588</skillid>
+    <classid>2</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Fiend's Knell</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>1972</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>3 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-30 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons a fiend for up to <span>30 seconds</span> that relentlessly attacks enemies with special skills.<br />Summons only one demon, which can't be healed.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Witchcraft 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>482</skillid>
+    <classid>2</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Folding Time</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Cast Time for all skills <span>-4%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Witchcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7545</skillid>
+    <classid>2</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Illusion's Favor</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Health Regen <span>+7</span> every <span>1 second</span>.<br />Decreases Cast Time for Earthen Grip and Insidious Whisper <span>-0.5 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Witchcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>805</skillid>
+    <classid>2</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Magic Detection</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Magic Defense <span>+500</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Witchcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>3779</skillid>
+    <classid>2</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Mitigation</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases received Melee damage <span>-30%</span> for <span>3 seconds</span> after receiving a Melee Critical Hit.<br />This ability has a <span>20sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Witchcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>806</skillid>
+    <classid>2</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Baleful Recharge</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Your successful attacks have a <span>2%</span> chance to trigger the Baleful Recharge buff, restoring a percentage of your maximum mana with every attack for the following <span>5 seconds</span>. This ability has a <span>12sec</span> cooldown once triggered. In addition, each enemy you Fear using Banshee's Wail or Insidious Whisper grants a stack of Exploitation.<br /><br />Exploitation:<br />- Decreases the Cooldown of Focal Concussion and Enervate -10% per stack.<br />- Stacks up to 5 times.<br />- Casting either spell consumes one stack.<br />- While under the effects of Exploitation, both spells will deal 90% of their damage as mana burn instead of normal damage, restoring an equal amount of mana to you.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Witchcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>1124</skillid>
+    <classid>2</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Augment Witchcraft</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases the duration of Earthen Grip, Bubble Trap, Insidious Whisper, Lassitude, and Banshee Wail <span>+20%</span>.<br />Fiend's Knell now summons a more powerful fiend that last for 5 minutes, tripping enemies where it is summoned. Increases the cooldown on Fiend's Knell to 2m 30sec.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Witchcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7546</skillid>
+    <classid>2</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Enshroud</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Witchcraft skill cooldown <span>-20%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Witchcraft <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34125</skillid>
+    <classid>2</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Devour Hope</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-2</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>14 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts a crippling despair on your chosen victim for <span>[z] сек.</span>. <br />Can only be used in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_hatred07.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hopelessness: Any skills cast during this debuff will have their cooldowns increased by <span>+10 seconds</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34277</skillid>
+    <classid>2</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34147</skillid>
+    <classid>2</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Stonesight</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>15 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>22 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Unleashes the gaze of the terrifying Gorgon, petrifying all enemies facing the caster within a <span>15m</span> cone. Enemies remain petrified until the caster stops channeling.<br />Any additional Abyssal Charges are consumed on casting, increasing the range of the skill.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff334.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sojung's Petrification: Petrifies a target and periodically deals siege damage equivalent to a percentage of max health.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18406</skillid>
+    <classid>2</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Spiteful Curses</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Earthen Grip, Bubble Trap, Insidious Whisper, Lassitude, and Focal Concussion each grant <span>1</span> Abyssal Charges whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>

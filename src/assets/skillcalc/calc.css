@@ -1,0 +1,62 @@
+.active-btn{
+    opacity:1!important;
+}
+.skill-btn{
+    background-color: transparent; 
+    border-radius: 0;
+}
+/* .active-skills .v-btn__content .v-img__img{
+    opacity:0.3;
+}
+.passive-skills .v-btn__content .v-img__img{
+    opacity:0.3;
+} */
+/* .passive-skills .v-btn__content::before{
+    content:"2";
+    font-size:35px;
+    color: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+} */
+.passive-lock{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top:0;
+    bottom: 0;
+    height: 0px;
+    width: 0px;
+    line-height: 45px;
+}
+.inactive{
+    opacity:0.3;
+}
+#skill-calc .skill_info span{
+    color:orange;
+}
+#skill-calc .desc span{
+    color:orange;
+}
+#skill-calc .skill_info div:not(:first-child) {
+    color: green;
+}
+#skill-calc .info {
+    padding-bottom: 10px;
+}
+#skill-calc .desc {
+    padding-bottom: 10px;
+}
+#skill-calc .skill_info {
+    padding: 10px 0;
+}
+#skill-calc .req {
+    padding-top:10px;
+}
+.skill_info .effects .desc::before{
+    content:'';
+    width: 100%;
+    border-bottom: 1px solid rgb(49, 67, 93);
+}

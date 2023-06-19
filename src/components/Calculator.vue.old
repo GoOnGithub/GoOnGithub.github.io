@@ -1,0 +1,588 @@
+<template>
+  <v-container id="skill-calc" class="fill-height" fluid style="background-color: #171e29;padding:0;">
+    <v-container class="fill-height">
+      <v-responsive class="align-center text-center fill-height" >
+        <v-row style="max-width:1200px;margin:auto">
+          <v-container style="background-color: #1f2b3b;color:#fff; border: 1px solid #31435d; border-radius: 8px;">
+            <v-row no-gutters>
+              <v-col cols="5">
+                <v-card-actions class="justify-center px-6">
+                  <v-card-text style="color:#fff">Class Name</v-card-text>
+                </v-card-actions>
+              </v-col>
+              <v-col cols="2">
+                <v-card-actions class="justify-center px-6">
+                  <div style="font-size: 22px; margin-bottom: -28px;">{{ current_points }} / {{ total_points }}</div>
+                  <!-- <v-card-text style="color:#fff;">{{ current_points }} / {{ total_points }}</v-card-text> -->
+                </v-card-actions>
+              </v-col>
+              <v-col cols="3">
+                <v-card-actions class="justify-center px-6">
+                  <v-form
+                    v-model='loadForm'
+                    style="width:100%;"
+                    @submit.prevent="loadBuildPrompt()"
+                  >
+                    <v-text-field v-model="buildStr" hide-details="auto" variant="underlined" label="Load Build">
+                      <template v-slot:append-inner>
+                        <v-fade-transition leave-absolute>
+                            <v-icon icon="mdi-arrow-right "></v-icon>
+                        </v-fade-transition>
+                      </template>
+                    </v-text-field>
+                    </v-form>
+                </v-card-actions>
+              </v-col>
+              <v-col cols="2">
+                <v-card-actions class="justify-center px-6">
+                  <v-btn @click="saveBuild();bsaveModal = true" icon="mdi-content-save" size="large" style="background-color:#0da9ef;color:#fff"></v-btn>
+                  <v-snackbar v-model="bsaveModal"> Build link generated:
+                    <template v-slot:actions>
+                    <v-btn
+                      color="#e28552"
+                      variant="text"
+                      timeout="5000"
+                      prepend="a"
+                      @click="bsaveModal = false;copyBuild()"
+                    >
+                      {{ buildString }}
+                      </v-btn>
+                    </template>
+                  </v-snackbar>
+                </v-card-actions>
+              </v-col>
+            </v-row>
+          </v-container>
+        <v-col
+          :key="index"
+          cols="12"
+          sm="4"
+          xs="12"
+          v-for="index in 3"
+        >
+        <v-btn v-if="Object.keys(t[index - 1]).length == 0" icon="mdi-plus" size="x-large" @click="overlay = !overlay;a=(index - 1)" style="background-color: #1f2b3b;color:#fff"></v-btn>
+        <v-card class="skill-tree" v-else style="background-color: #1f2b3b;color:#fff; border: 1px solid #31435d; border-radius: 8px;">
+          <v-card-title>{{t[index - 1].name}} <v-chip>{{ t[index - 1].points }} / 19</v-chip></v-card-title>
+          <v-container style="max-width: 250px;">
+              <v-row>
+                <v-col
+                  v-for="n in 12"
+                  :key="n"
+                  cols="12"
+                  sm="3"
+                  class="active-skills"
+                >
+                <v-btn :ref="'t' + [index-1] + 'a'" @mouseover="skillHover = true;skillInfo = (t[index - 1]['desc'][n-1])" @mouseleave="skillHover = false" @mousemove="moxy($event)" @click="selectSkill((index - 1),n-1,'a') ? setActive((index - 1),n-1,'a') : setInactive((index - 1),n-1,'a')" color="#171e29" min-width="45" height="45" width="45" density="compact" rounded="rounded-0">
+                  <v-img
+                  :width="45"
+                  aspect-ratio="1.1"
+                  src="../assets/skillcalc/icon_skill_fight26.png" />
+                </v-btn>
+              </v-col>
+              <v-divider></v-divider>
+              <v-col
+                  v-for="n in 7"
+                  :key="n"
+                  cols="12"
+                  sm="3"
+                  class="passive-skills"
+                >
+                <div class="passive-lock" v-if="t[index - 1]['desc'][n+11]"><div style="position: relative;width: 45px;height: 45px;">{{ t[index - 1]['desc'][n+11]['points'] }}</div></div>
+                <v-btn :ref="'t' + [index-1] + 'p'" @mouseover="skillHover = true;skillInfo = (t[index - 1]['desc'][n+11])" @mouseleave="skillHover = false" @mousemove="moxy($event)" @click="selectSkill((index - 1),n+11,'p') ? setActive((index - 1),n-1,'p') : setInactive((index - 1),n-1,'p')" color="#171e29" min-width="45" height="45" width="45" density="compact" rounded="rounded-0">
+                  <v-img
+                  :width="45"
+                  aspect-ratio="1.1"
+                  src="../assets/skillcalc/icon_skill_fight26.png" />
+                </v-btn>
+              </v-col>
+            </v-row>
+            <v-row justify="space-around">
+              <v-col
+                key="1"
+                cols="4"
+              >
+                <v-sheet @click="deleteTree(index - 1)" class="pa-2 ma-2" style="background-color:transparent;color:#fff;cursor: pointer;">
+                  <v-icon icon="mdi-trash-can-outline "></v-icon>
+                </v-sheet>
+              </v-col>
+              <v-col
+                key="2"
+                cols="4"
+              >
+                <v-sheet class="pa-2 ma-2" @click="overlay = !overlay;a=(index - 1)" style="background-color:transparent;color:#fff;cursor: pointer;">
+                  <v-icon icon="mdi-swap-vertical "></v-icon>
+                </v-sheet>
+              </v-col>
+              <v-col
+                key="3"
+                cols="4"
+              >
+                <v-sheet class="pa-2 ma-2" @click="resetTree(index - 1);a=(index - 1)" style="background-color:transparent;color:#fff;cursor: pointer;">
+                  <v-icon icon="mdi-reload "></v-icon>
+                </v-sheet>
+              </v-col>
+            </v-row>
+          </v-container>
+        </v-card>
+        </v-col>
+        
+        
+      </v-row>
+      </v-responsive>
+    </v-container>
+    <v-overlay v-model="overlay" class="align-center justify-center">
+      <v-container>
+      <v-row>
+        <v-col cols="auto">
+            <v-btn class="my-2" elevation="8" density="comfortable" block size="x-large" :ripple="false" v-for="item in uns" :key="item.id" @click="setSelected(item.id);"> {{item.name}} </v-btn>
+        </v-col>
+      </v-row>
+    </v-container>
+    </v-overlay>
+    <v-overlay v-model="loverlay" class="align-center justify-center">
+      <v-container>
+      <v-row>
+        <v-col cols="auto">
+          <v-card>          
+            <v-card-item>
+              <div>
+                <div class="text-overline mb-1">
+                  <v-icon icon="mdi-alert "></v-icon>
+                </div>
+                <div class="text-h6 mb-1">
+                  Load build
+                </div>
+                <div class="text-caption">{{ classesStr }}</div>
+                <div class="text-caption"> </div>
+                <v-btn class="my-2" elevation="8" density="comfortable" block size="x-large" :ripple="false" @click="loadbuild();loadBuildPrompt();loverlay=!loverlay"> Load </v-btn>
+              </div>
+            </v-card-item>
+        </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
+    </v-overlay>
+    <div v-show="skillHover" ref="skillWindow" :style="skillHoverWindow">
+      <v-card :class="`elevation-10`" style="color: #fff; background: #1f2b3b; border: 1px solid #31435d; border-radius: 8px; max-width:500px;">
+        <v-card-title>{{skillInfo['name']}}</v-card-title>
+        <v-card-text><div v-html="content"></div></v-card-text>
+      </v-card>
+    </div>
+    </v-container>
+</template>
+
+<script setup>
+</script>
+<script>
+import axios from 'axios';
+import xmlTojson from '../assets/skillcalc/xmlToJson.js';
+import "@/assets/skillcalc/calc.css";
+import { isProxy, toRaw } from 'vue';
+  export default {
+    data: () => ({
+      overlay: false,
+      loverlay:false,
+      bsaveModal:false,
+      message: '',
+      total_points:28,
+      current_points:0,
+      actives_per_tree:12,
+      passives_per_tree:7,
+      t: [{},{},{}],
+      a:0,
+      buildLoading:false,
+      skillHover:false,
+      mox:0,
+      moy:0,
+      mob:0,
+      skillInfo:"",
+      treesArr:[],
+      classesStr:"",
+      classesBin:"",
+      buildString:"",
+      loadForm: false,
+      buildStr:"",
+      xmlError:null,
+      classes:[
+        {
+          id:"0",
+          name:"Battlerage",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"1",
+          name:"Witchcraft",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"2",
+          name:"Defense",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"3",
+          name:"Auramancy",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"4",
+          name:"Occultism",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"5",
+          name:"Archery",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"6",
+          name:"Sorcery",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"7",
+          name:"Shadowplay",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"8",
+          name:"Songcraft",
+          selected:"0",
+          desc:""
+        },
+        {
+          id:"9",
+          name:"Vitalism",
+          selected:"0",
+          desc:""
+        },
+      ],
+    }),
+    computed:{
+      uns(){
+        return this.classes.filter(x => x.selected !== 1)
+      },
+      skillHoverWindow() {
+      return {
+        "top": ` min(100vh - ${this.mob}px - 15px, ${this.moy}px)`,
+        "left": `${this.mox}px`,
+        "position":"absolute",
+      };
+      },
+      content() {
+        if (this.skillInfo.length == 0){
+          return ("");
+        }else{
+          return(this.skillInfo['desc']['#cdata-section'])
+        }
+      },
+    },
+    methods:{
+      setSelected(id){
+        
+          console.log(`Selected Tree ${this.a}, with class ID ${id}.`)
+          if (Object.keys(this.t[this.a]).length == 0){
+            console.log(id);
+            this.t[this.a] = JSON.parse(JSON.stringify(this.classes[id]));
+            this.t[this.a].points = 0
+            //this.loadData(parseInt(id)+1)
+            this.classes[id].selected = 1
+            console.log(this.t[this.a])
+            if (this.buildLoading==true){
+              console.log("Loading a build.");
+            }
+          }else{
+            this.classes[this.t[this.a].id].selected = 0
+            this.current_points = this.current_points - this.t[this.a]['points'],
+            this.t[this.a] = JSON.parse(JSON.stringify(this.classes[id]));
+            this.t[this.a].points = 0
+            //this.loadData(parseInt(id)+1)
+            this.classes[id].selected = 1
+          }
+          this.overlay = false
+          console.log(this.t[0])
+          console.log(this.t)
+          this.disableAll(this.a)
+        
+      }, 
+      deleteTree(id){
+        this.current_points = this.current_points - this.t[id]['points']
+        this.classes[this.t[id]['id']]['selected'] = 0
+        this.t[id] = {}
+        console.log(this.t)
+      },
+      resetTree(id){
+        this.current_points = this.current_points - this.t[id]['points']
+        this.disableAll(id)
+        this.t[id] = JSON.parse(JSON.stringify(this.classes[this.t[id]['id']]));
+        this.t[id]['points'] = 0
+        console.log(this.t)
+      },
+      moxy(e){
+        this.mob = this.$refs.skillWindow.offsetHeight
+        this.mox = e.clientX + 25
+        this.moy = e.clientY + 25
+      },
+      loadData (a) {
+        return new Promise((resolve,reject) => {
+          this.xmlContent = null;
+          this.xmlError = false;
+          axios.get(`./skillcalc/trees/skills_${a}.xml`).then(response => {
+            var b = response.data;
+            var c = new DOMParser().parseFromString(b, 'text/xml');
+            var d = toRaw(xmlTojson(c))
+            d['skills']['skill'] = d['skills']['skill'].slice(0,19)
+            for (let[x,y] of Object.entries(d['skills']['skill'])){
+              y.active = false
+            }
+            this.t[this.a]['desc'] = d['skills']['skill']
+            console.log("Asdfasdfadsfadsfasdfadsfasfas " + this.a)
+            console.log(d);
+          }, () => {
+            this.xmlError = true;
+          });
+          return resolve()
+        })
+        },
+        selectSkill(t,n,x){
+          console.log("Skill num " + n);
+          var z = 't'+t+'p'
+          console.log("skill tree " +t)
+          if (this.t[t]['desc'][n].active == true){
+            this.t[t]['desc'][n].active = false
+            this.t[t].points = this.t[t].points - 1
+            this.current_points = this.current_points - 1
+            for( var i=18; i > 11; i-=1) {
+                if(this.t[t].points <= this.t[t]['desc'][i]['points']){
+                if(this.t[t]['desc'][i]['active'] == true){
+                  this.$refs[z][i-12].$el.classList.add('inactive')
+                  this.t[t]['desc'][i].active = false
+                  this.t[t].points = this.t[t].points - 1
+                  this.current_points = this.current_points - 1
+                  return(false)
+                }
+                }
+            }
+            return(false)
+          }else{
+            if (this.checkPoints(t) === true){
+              if(n >= 12 && this.t[t]['points'] >= parseInt(this.t[t]['desc'][n]['points'])){
+                this.t[t]['desc'][n].active = true
+                this.t[t].points = this.t[t].points + 1
+                this.current_points = this.current_points + 1
+                return(true)
+              }else if (n >= 12 && this.t[t]['points'] < parseInt(this.t[t]['desc'][n]['points'])){
+                return (false)
+              }else{
+                this.t[t]['desc'][n].active = true
+                this.t[t].points = this.t[t].points + 1
+                this.current_points = this.current_points + 1
+                return(true)
+              }
+            }else{
+              return(false)
+            }
+          }
+        },
+        checkPoints(t){
+          if(this.t[t].points < 19 && this.current_points < this.total_points){
+            return true
+          }else{
+            return false
+          }
+        },
+        setActive(a,b,c){
+          var d = 't'+a+c
+          // console.log(e.target)
+          // e.target.classList.add("active-btn")
+          this.$refs[d][b].$el.classList.remove("inactive")
+        },
+        setInactive(a,b,c){
+          var d = 't'+a+c
+          console.log(b);
+          // console.log(e.target)
+          // e.target.classList.remove("active-btn")
+          this.$refs[d][b].$el.classList.add('inactive')
+        },
+        disableAll(a){
+          console.log(a);
+          var b = 't'+a+'a'
+          var c = 't'+a+'p'
+          this.$nextTick(function () {
+            for(var i=0; i < 12; i++){
+              this.$refs[b][i].$el.classList.add('inactive')
+            }
+            for(var i=0; i < 7; i++){
+              this.$refs[c][i].$el.classList.add('inactive')
+            }
+          })
+          
+        },
+        saveBuild(){
+          var holder = ""
+          var g=[]
+          for(var i=0; i<3; i++){
+            if (Object.keys(this.t[i]).length == 0){
+              g.push(true,true,true,true,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,false,)
+              console.log("Tree "+i+" is empty!");
+            }else{
+              holder = (parseInt(this.t[i]['id']).toString(2).padStart(4, '0')).split("")
+              for (let i = 0; i < holder.length; i++) {
+                g.push(!!+holder[i])
+              }
+              for(var n=0; n<19; n++){
+                g.push(this.t[i]['desc'][n]['active'])
+              }
+            }
+            // console.log("input = " + i);
+            // var bin = (i).toString(2).padStart(4, '0')
+            // console.log("binary " + bin);
+            // console.log("back to int " + parseInt(bin, 2))
+          }
+          console.log(g)
+          console.log(this.compress(g))
+          this.buildString = this.compress(g)
+          console.log("saved!")
+        },
+        loadBuildPrompt(){
+          this.classesStr=""
+          this.classesBin=""
+          this.treesArr=[]
+          this.buildStr = this.buildStr.replace(/\s/g, '')
+          try {
+            var o = this.uncompressSave(this.buildStr);
+            this.classesBin=o
+              for(var i=0;i<3;i++){
+                var l = o.slice((i*23),(i*23+4))
+                console.log(l)
+                for (var x=0;x<l.length;x++){
+                 l[x]=+l[x]
+                }
+                l = parseInt(l.join(""), 2)
+                  if (l==15){
+                    this.classesStr = this.classesStr+"No Tree, "
+                    this.treesArr.push(15)
+                  }else{
+                    this.classesStr = this.classesStr+ this.classes[l]['name']+ ", "
+                    this.treesArr.push(l)
+                  }
+                }
+              this.loverlay=true
+            } catch (error) {
+              console.error(error);
+              // Expected output: ReferenceError: nonExistentFunction is not defined
+              // (Note: the exact output may be browser-dependent)
+            }
+        },
+        loadbuild(){
+          console.log("here")
+          console.log(this.treesArr);
+          for(var i=0;i<3;i++){
+              if (Object.keys(this.t[i]).length != 0){
+                  this.deleteTree(i)
+                 }
+                 this.a=i
+                 if (this.treesArr[i] != 15){
+                  this.setSelected(this.treesArr[i])
+                 }
+                 var o = this.classesBin.slice((i*23+4),(i*23))
+                 var c = 0
+                 for(var x = ((i*23)+4); x<((i*23)+23);x++){
+                  if(this.classesBin[x]){
+                    this.selectSkill(i,c)
+                  }
+                  c++
+                 }
+                 console.log(this.t);
+          }
+          this.loadActive()
+        },
+        loadActive(){
+          this.$nextTick(function () {
+          for(var i=0;i<3;i++){
+            var c=0
+              for(var x = ((i*23)+4); x<((i*23)+23);x++){
+                    var z = 't'+i+((c<12)?'a':'p')
+                    var b = ((c<12)?c:c-12)
+                  if(this.classesBin[x]){
+                    this.$refs[z][b].$el.classList.remove("inactive")
+                  }
+                  c++
+          }
+          }
+        })
+        },
+        async copyBuild() {
+          await navigator.clipboard.writeText(this.buildString);
+        },
+        loadTrees : async(a) =>{
+          console.log("loadtrees")
+          var b=a+1
+          return axios.get(`./skillcalc/trees/skills_${b}.xml`);
+        },
+
+        convertBase(value, from_base, to_base) {
+          var range = '0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ-_'.split('');
+          var from_range = range.slice(0, from_base);
+          var to_range = range.slice(0, to_base);
+
+          var dec_value = value.split('').reverse().reduce(function(carry, digit, index) {
+            if (from_range.indexOf(digit) === -1) throw new Error('Invalid digit `' + digit + '` for base ' + from_base + '.');
+            return carry += from_range.indexOf(digit) * (Math.pow(from_base, index));
+          }, 0);
+
+          var new_value = '';
+          while (dec_value > 0) {
+            new_value = to_range[dec_value % to_base] + new_value;
+            dec_value = (dec_value - (dec_value % to_base)) / to_base;
+          }
+          return new_value || '0';
+        },
+
+        compress(bools) {
+          var sections = [], MAX_SAFE_SECTION = 52;
+          for (var i = 0; i < bools.length; i++) {
+            if (i % MAX_SAFE_SECTION == 0) sections.push([]);
+            sections[Math.floor(i / MAX_SAFE_SECTION)][i % MAX_SAFE_SECTION] = bools[i] ? 1 : 0;
+          }
+          for (var i = 0; i < sections.length; i++) sections[i] = this.convertBase("1" + sections[i].join(""), 2, 62);
+          return sections.join("");
+        },
+
+        uncompressSave(str) {
+          var sections = [];
+          while (str.length > 0) str = str.replace(sections[sections.length] = str.substring(0, 9), "");
+          for (var i = 0; i < sections.length; i++) sections[i] = this.convertBase(sections[i], 62, 2).substring(1);
+          var bools = sections.join("").split("");
+          for (var i = 0; i < bools.length; i++) bools[i] = bools[i] == "1";
+          return bools;
+        },
+    },
+    async created () {
+      console.log("created")
+      for (var i=0; i<10; i++) {
+        var b = await this.loadTrees(i)
+        var c = new DOMParser().parseFromString(b["data"], 'text/xml');
+        var d = toRaw(xmlTojson(c))
+        console.log(d)
+        console.log(this.classes)
+        d['skills']['skill'] = d['skills']['skill'].slice(0,19)
+        for (let[x,y] of Object.entries(d['skills']['skill'])){
+          y.active = false
+        }
+        this.classes[i]['desc'] = d['skills']['skill']
+      }
+      console.log(this.classes)
+    },
+    mounted(){
+    },
+  }
+</script>

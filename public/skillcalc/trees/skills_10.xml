@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>33345</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Holy Bolt</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>7</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-30 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires a bolt of holy light that deals <span>[x]-[y]</span> Magic Damage.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff91.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts +37% damage on Cursed targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff92.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Heals allies Blessed by you as long as they are within 15m of the target.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11379</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>3</level>
+    <name>Mirror Light</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>12</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>21 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Caster/allies: Cures one debuff and increases received healing <span>+15%</span> for <span>[z] сек.</span>.<br />Enemies: Inflicts Snare for <span>[x] сек.</span>. Increases received damage <span>+12%</span> and decreases healing effectiveness <span>-30%</span> for <span>[v] сек.</span>. Snare duration reduced <span>-50%</span> in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 3<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10534</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Antithesis</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>78</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>5 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Allies/caster: Instantly restores +<span>[x]-[y]</span> Health.<br />Enemies: Deals <span>[x]-[y]</span> Magic Damage.<br />Hold ALT to use on yourself.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff43.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Reduces Antithesis cooldown -0.6 seconds while Inspired.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff42.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Eliminates the cast time of Antithesis for the duration of Spell Shield.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff87.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Healing effectiveness increased +30% when cast on a friendly character under Resurgence.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Consumes a target's Charmed debuff to inflict an additional +26% damage.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10547</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Resurgence</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>131</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-30 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Regenerates <span>[b]</span> Health over <span>[z] сек.</span> for you or an ally.<br />Hold ALT to use the skill on yourself.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff87.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Grace of the Forest: Those who eat the Lord's fruit receive the grace from the Green Lord. All stats increase +2.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10546</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Revive</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>328</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>7 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Revives an ally and restores the XP lost at death in the same amount as Nui's resurrection.<br />Revived target: <br />Can't be used during combat.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>13286</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Skewer</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>433</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>5 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>18 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Summons four skewers within a 20m circle at the target area, dealing <span>[x]-[y]</span> Magic Damage and Impaling enemies for <span>[z] сек.</span>, preventing all actions. Skewers deal more damage where they overlap. When this skill levels up, it increases in both damage and cast time.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hell Spear: Impales for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inflicts additional +45% damage on Impaled targets.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10720</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Mend</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>805</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>3 seconds</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Restores +<span>[x]</span><span>[d]</span> health to up to 10 allies within a 20m radius.<br /><br />Affected allies are protected for a short period of time (does not stack with Insulating Lens).<br /><br />Grants immunity to Fear, but does not remove existing Fear effects.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff43.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Mend cooldown reduced -2.1 seconds while under Inspired.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff87.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Healing effectiveness increased +30% when cast on a friendly character under Resurgence.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff281.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases Omnipotent Ward duration +100% if used while under the affects of Sacrifice.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff281.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff77.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Consumes Sacrifice buff to grant Renewal to affected allies.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>16004</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Aranzeb's Boon</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>210</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>8 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Applies to caster and nearby raid members for <span>30 minutes</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>17412</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Renewal</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>414</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-30 meters</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Calls forth energy from the land to bless the caster or an ally for 30sec. <br />Hold ALT to use on yourself.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>14929</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Fervent Healing</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>98</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-30 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>10 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Instantly restores <span>[x]-[y]</span> Health for you or an ally. When used repeatedly, this skill heals <span>25%</span> more Health, but at the cost of more Mana and a longer cooldown.<br />Can be used up to 5 times in a row.<br />Hold ALT to use the skill on yourself.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff43.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Cooldown reduced -1.2 seconds while under Inspired.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>16783</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Infuse</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>1518</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>25 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Consumes caster's mana to immediately restore the mana of up to 10 allies within 20m. Restores <span>8-11%</span> of each target's max mana.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff281.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff89.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Consumes Sacrifice buff to grant Martyr's Boon to affected allies.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23596</skillid>
+    <classid>10</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Whirlwind's Blessing</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>1578</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-50 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Attack Speed <span>+250</span> and Move Speed +20% for allies within <span>30m</span>, and decreases Attack Speed <span>-175</span> and Move Speed -15% for enemies for <span>30 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Vitalism 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>753</skillid>
+    <classid>10</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Painful Recharge</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Converts <span>3%</span> of received damage to mana.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Vitalism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>558</skillid>
+    <classid>10</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Quick Recovery</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Resets cooldowns on all Vitalism healing skills after receiving critical damage or critical healing. If Quick Recovery is triggered too often, it will be disabled for <span>12 seconds</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Vitalism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>783</skillid>
+    <classid>10</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Spirit Growth</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Spirit <span>+9%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Vitalism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7585</skillid>
+    <classid>10</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Alms</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Cast Time for all skills <span>-6%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Vitalism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>3172</skillid>
+    <classid>10</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Invigorated Healing</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Critical Heal Bonus <span>+25%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Vitalism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2927</skillid>
+    <classid>10</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Defiance</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases Magic Defense <span>+500</span> for all allies within a <span>15m</span> radius.<br />Grants the <span>Prayer</span> effect every time Antithesis, Mend, or Fervent Healing is cast.<br /><br />Prayer:<br />- Decreases Cast Time -2% per stack.<br />- Triggers Sacrifice at 5 stacks.<br /><br />Sacrifice:<br />- Consumes <span>12-16%</span> of current health when triggered.<br />- Decreases Cast Time -10%.<br />- Adds powerful bonus effects to Mend and Infuse.<br />- Lasts 15sec.<br />- Prevents gaining stacks of <span>Prayer</span> for duration.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Vitalism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7586</skillid>
+    <classid>10</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Joyous Spirit</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases Vitalism skill cooldown <span>-20%</span>. <br />Increases Post-Cast Mana Regen based on <span>Spirit</span> whenever damage is received while below <span>40%</span> mana.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Vitalism <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34096</skillid>
+    <classid>10</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Abyssal Petrification</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>3-3</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>2 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-12 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Removes all debuffs and aggro from a selected target and protects them against all damage for <span>[z] сек.</span>, but prevents them from moving or taking actions for the duration. <br />Using this skill on a petrified target reverses the effects.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff334.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sojung's Petrification: Petrifies a target and periodically deals siege damage equivalent to a percentage of max health.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34284</skillid>
+    <classid>10</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34087</skillid>
+    <classid>10</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Defy Death</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>3 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>6 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Revives up to 6 allies within 6m of the caster. All targets beyond the first must be in the same party or raid as the caster to be revived. Any additional charges are consumed on casting, increasing the health and mana of revived targets. <br />Consuming 6 Abyssal Charges increases the affected range to 20m. <br />Can be used in combat.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18417</skillid>
+    <classid>10</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Profane Prayers</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Antithesis, Mirror Light, Mend, Fervent Healing, and Infuse each grant <span>1</span> Abyssal Charge whenever they're used on the caster or their allies.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>

@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="utf-8"?>
+<skills>
+  <skill>
+    <skillid>16486</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>1</level>
+    <name>Thwart</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>14</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-20 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>6 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>15 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Inflicts Shaken on all enemies within a <span><span>[w]</span>m</span> radius, decreasing their Move Speed <span>-27%</span>, Skill Damage <span>-8%</span>, and Attack Speed <span>-75</span>. Grants the caster 1 stack of Inspired.<br /><br />Inspired:<br />- Increases Attack Speed <span>+53</span>.<br />- Vicious Implosion (Auramancy): increases damage <span>+52%</span>.<br />- Antithesis (Vitalism): decreases cooldown <span>0.6 sec</span>.<br />- Mend (Vitalism): decreases cooldown <span>2.1 sec</span>.<br />- Fervent Healing (Vitalism): decreases cooldown <span>1.2 sec</span>.<br />- Stacks up to <span>3 times</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff43.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inspired: Increases Attack Speed +53, stacking up to 3 times.
+Vicious Implosion (Auramancy): Increases damage by +52%.
+Antithesis (Vitalism): Decreases cooldown by 0.6 sec.
+Mend (Vitalism): Decreases cooldown by 2.1 sec.
+Fervent Healing (Vitalism): decreases cooldown by 1.2 sec.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18222</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>5</level>
+    <name>Comet's Boon</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>26</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>31 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>12 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Fires a flash of light that deals <span>[x]-[y]</span> Magic Damage to all enemies hit.<br />Increases the Move Speed of all allies it passes.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 5<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11869</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>10</level>
+    <name>Spell Shield</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>23</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Creates an energy shield for <span>[z] сек.</span>. <br />Does not trigger a global cooldown.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff42.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Spell Shield (Rank 1): Decreases Received Magic Damage <span>-</span><span>[m]</span><span>%</span>, but also decreases Received Healing by an equal amount.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_will08.gif" class="st_skill_icon" alt="" width="28" />
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff127.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Gain Magic Shield while under Liberation.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 10<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10710</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>15</level>
+    <name>Vicious Implosion</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>110</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>15 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Triggers a sudden, powerful implosion, pulling enemies within <span>10 meters</span> towards you and dealing #{avg_damage} #{detail_spell_damage}Magic Damage.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff28.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases Aggro +300% when used on Taunted targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff43.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Consumes all stacks of Inspired; inflicts additional +52% damage per stack.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 15<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10152</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>20</level>
+    <name>Teleportation</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>49</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Teleports caster <span>15 meters</span> ahead.<br />Can't teleport through walls or other solid objects.<br />Can't be used while Snared.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 20<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11991</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>25</level>
+    <name>Health Lift</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>67</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1.5 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Effect Radius: <span>25 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>8 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p> Affects caster and nearby raid members for <span>30 minutes</span>.<br />Can't be used on targets whose health has already been increased.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 25<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11989</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>30</level>
+    <name>Meditate</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Restores <span>+4%</span> of max mana per second for <span>[z] сек.</span> through meditation. Prevents movement or other actions.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 30<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11429</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>35</level>
+    <name>Shrug It Off</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>52</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>30 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Cancels all Stun and Impale effects, and grants immunity to these effects for <span>[z] сек.</span>.<br />Can only be used while under one of these effects.<br />Can be used during global cooldown, and does not trigger global cooldown.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff38.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shrug It Off: Grants immunity to Stun and Impale.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 35<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>11380</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>40</level>
+    <name>Liberation</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>73</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>60 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Grants immunity to Shackle and Silence for <span>[z] сек.</span>.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff41.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Liberation: Grants immunity to Shackle and Silence.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 40<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10104</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>45</level>
+    <name>Leech</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>197</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>45 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Interrupts a target's casting and inflicts Sleep for <span>[z] сек.</span>. Steals one buff from the target.<br />Targets will wake upon taking damage.<br />Sleep duration reduced -50% in PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff19.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sleep: Sleeping.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <p>Combos:</p>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Steals an additional buff from Slowed targets.</p>
+            </div>
+            <div class="clear"></div>
+          <div class="effects"></div>
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Increases Slowed targets' Sleep duration +2 seconds.</p>
+            </div>
+            <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 45<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>10714</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>50</level>
+    <name>Protective Wings</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>433</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-3 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Grants immunity to Magic Damage to allies within <span>5m</span> for the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 50<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>23934</skillid>
+    <classid>4</classid>
+    <type>1</type>
+    <level>55</level>
+    <name>Mirror Warp</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Mana <span>236</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>42 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Teleports caster <span>15m</span> to the right or left.<br />Can't pass through walls or other solid objects. <br />Can't be used while Snared. <br />Has a chance to escape enemy targetting during PvP.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Level: Auramancy 55<br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>498</skillid>
+    <classid>4</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>2</points>
+    <name>Absorb Damage</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Converts <span>7%</span> of received damage to health.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 2 active skills in Auramancy <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>2784</skillid>
+    <classid>4</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>4</points>
+    <name>Hearten</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p><span>Doubles</span> the duration of Inspire.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 4 active skills in Auramancy <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7554</skillid>
+    <classid>4</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>6</points>
+    <name>Inspiration Cloak</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Decreases all received damage <span>-100</span> for <span>3 seconds</span> after receiving critical damage.<br />This ability has a <span>20 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 6 active skills in Auramancy <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>621</skillid>
+    <classid>4</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>7</points>
+    <name>Unassailable</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Grants a <span>1%</span> chance to become immune to all damage for <span>2 seconds</span> after receiving any damage.<br />This ability has a <span>20 sec</span> cooldown once triggered.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 7 active skills in Auramancy <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>793</skillid>
+    <classid>4</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>8</points>
+    <name>Improved Targeting</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases the Accuracy of all attack types <span>+8%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 8 active skills in Auramancy <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>7553</skillid>
+    <classid>4</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>9</points>
+    <name>Magic Condenser</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases all Critical Rates and Critical Heal Rate <span>+6%</span>.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 9 active skills in Auramancy <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>927</skillid>
+    <classid>4</classid>
+    <type>2</type>
+    <level>1</level>
+    <points>10</points>
+    <name>Teleportation Discipline</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Teleportation has a <span>50%</span> chance to eliminate its cooldown and allow consecutive teleports.<br />Mirror Warp has a <span>50%</span> chance to sustain the buff and allow consecutive use.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Requires 10 active skills in Auramancy <br />1 Skill Point</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34165</skillid>
+    <classid>4</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Crushing Grasp</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>3-3</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-12 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>24 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Creates a powerful gravity vortex around a chosen target after a short delay. Deals <span>[x]-[y]</span> Magic damage to all enemies in a  radius, pulling them to the target's location, but leaves the initial target unharmed.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34279</skillid>
+    <classid>4</classid>
+    <type>3</type>
+    <level>25</level>
+    <name>Rising Hatred</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>2-4</span></span>
+          <div class="clear"></div>
+          <span class="type">Instant</span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-4 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>120 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Increases maximum Abyssal Charges <span>+2</span> for <span>12 seconds</span>. Prevents charges from naturally depleting for the duration, and <span>doubles</span> charges gained through using skills.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 25</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>34090</skillid>
+    <classid>4</classid>
+    <type>3</type>
+    <level>55</level>
+    <name>Abyssal Wave</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Abyssal Charges: <span>4-6</span></span>
+          <div class="clear"></div>
+          <span class="type">Cast Time: <span>1 seconds</span></span>
+          <div class="clear"></div>
+          <span class="txt">Range: <span>0-10 meters</span></span>
+          <div class="clear"></div>
+          <span class="type">Cooldown: <span>14 seconds</span></span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Shoots a wave of force up to <span>20m</span> in front of you. Inflicts <span>[x]-[y]</span> Magic Damage and knocks back all enemies it touches.<br />Any additional Abyssal Charges are consumed on casting, increasing the number of waves. Being struck by multiple waves in a row dramatically decreases enemies' Move Speed.</p>
+        </div>
+        <hr />
+        <div class="skill_info">
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 55</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+  <skill>
+    <skillid>18412</skillid>
+    <classid>4</classid>
+    <type>3</type>
+    <level>10</level>
+    <name>Merciless Manipulator</name>
+    <desc>
+      <![CDATA[
+        <div class="block info">
+          <span class="txt">Passive</span>
+          <div class="clear"></div>
+        </div>
+        <hr />
+        <div class="block desc">
+          <p>Comet's Boon, Spell Shield, Vicious Implosion, Shrug It Off, and Liberation each grant <span>1</span> Abyssal Charge whenever they're used.</p>
+        </div>
+        <hr />
+        <div class="block req">
+          <span class="txt">Abyssal Level: 10</span>
+        </div>
+      ]]>
+    </desc>
+  </skill>
+</skills>
