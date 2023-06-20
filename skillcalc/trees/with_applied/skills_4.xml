@@ -26,6 +26,27 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff43.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Inspired: Increases Attack Speed +53, stacking up to 3 times.
+Vicious Implosion (Auramancy): Increases damage by +52%.
+Antithesis (Vitalism): Decreases cooldown by 0.6 sec.
+Mend (Vitalism): Decreases cooldown by 2.1 sec.
+Fervent Healing (Vitalism): decreases cooldown by 1.2 sec.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -88,10 +109,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Creates an energy shield for <span>[z] seconds.</span>. <br />Does not trigger a global cooldown.</p>
+          <p>Creates an energy shield for <span>[z] сек.</span>. <br />Does not trigger a global cooldown.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff42.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Spell Shield (Rank 1): Decreases Received Magic Damage <span>-</span><span>[m]</span><span>%</span>, but also decreases Received Healing by an equal amount.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_will08.gif" class="st_skill_icon" alt="" width="28" />
@@ -233,7 +262,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Restores <span>+4%</span> of max mana per second for <span>[z] seconds.</span> through meditation. Prevents movement or other actions.</p>
+          <p>Restores <span>+4%</span> of max mana per second for <span>[z] сек.</span> through meditation. Prevents movement or other actions.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -265,10 +294,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Cancels all Stun and Impale effects, and grants immunity to these effects for <span>[z] seconds.</span>.<br />Can only be used while under one of these effects.<br />Can be used during global cooldown, and does not trigger global cooldown.</p>
+          <p>Cancels all Stun and Impale effects, and grants immunity to these effects for <span>[z] сек.</span>.<br />Can only be used while under one of these effects.<br />Can be used during global cooldown, and does not trigger global cooldown.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff38.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shrug It Off: Grants immunity to Stun and Impale.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -297,10 +334,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Grants immunity to Shackle and Silence for <span>[z] seconds.</span>.</p>
+          <p>Grants immunity to Shackle and Silence for <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff41.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Liberation: Grants immunity to Shackle and Silence.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -329,10 +374,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Interrupts a target's casting and inflicts Sleep for <span>[z] seconds.</span>. Steals one buff from the target.<br />Targets will wake upon taking damage.<br />Sleep duration reduced -50% in PvP.</p>
+          <p>Interrupts a target's casting and inflicts Sleep for <span>[z] сек.</span>. Steals one buff from the target.<br />Targets will wake upon taking damage.<br />Sleep duration reduced -50% in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff19.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sleep: Sleeping.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />

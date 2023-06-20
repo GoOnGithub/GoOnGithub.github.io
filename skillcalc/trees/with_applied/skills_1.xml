@@ -18,10 +18,20 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>A constant pattern of <span>3 distinct strikes</span>, each dealing <span>[x]-[y]</span> Physical Damage and inflicting different effects.<br />Attack 1: Shakes enemy for <span>[z] seconds.</span>.<br />Attack 2: Deals additional damage to Tripped enemies.<br />Attack 3: Increases Melee damage <span>+30%</span> and hits multiple enemies in front of you.<br /><br /><br />Does not trigger a global cooldown. Hold down for continuous use.</span></p>
+          <p>A constant pattern of <span>3 distinct strikes</span>, each dealing <span>[x]-[y]</span> Physical Damage and inflicting different effects.<br />Attack 1: Shakes enemy for <span>[z] сек.</span>.<br />Attack 2: Deals additional damage to Tripped enemies.<br />Attack 3: Increases Melee damage <span>+30%</span> and hits multiple enemies in front of you.<br /><br /><br />Does not trigger a global cooldown. Hold down for continuous use.</span></p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
@@ -70,10 +80,19 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Launches a rush toward an enemy that deals <span>[x]-[y]</span> Physical Damage and inflicts Snare for <span>[z] seconds.</span>.<br />Snare duration reduced <span>-50%</span> in PvP.<br />Can't be used while Snared.</p>
+          <p>Launches a rush toward an enemy that deals <span>[x]-[y]</span> Physical Damage and inflicts Snare for <span>[z] сек.</span>.<br />Snare duration reduced <span>-50%</span> in PvP.<br />Can't be used while Snared.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
@@ -169,10 +188,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Smashes open a fault line in front of you, dealing <span>[x]-[y]</span> Physical damage to all enemies in its path and decreasing their Move Speed <span>-60%</span> for <span>[z] seconds.</span>.<br />All allies in the area of effect gain Earth Energy, decreasing received damage <span>-30%</span> for up to <span>7 seconds</span>.</p>
+          <p>Smashes open a fault line in front of you, dealing <span>[x]-[y]</span> Physical damage to all enemies in its path and decreasing their Move Speed <span>-60%</span> for <span>[z] сек.</span>.<br />All allies in the area of effect gain Earth Energy, decreasing received damage <span>-30%</span> for up to <span>7 seconds</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff26.gif" class="st_skill_icon" alt="" width="28" />
@@ -219,6 +246,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff28.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Taunt: Forces enemies to focus on the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -249,7 +284,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Weakens all enemies within <span><span>[w]</span>m</span> for <span>[z] seconds.</span>. <br />Also Toughens the caster for the same amount of time, reducing the duration of those debuffs.</p>
+          <p>Weakens all enemies within <span><span>[w]</span>m</span> for <span>[z] сек.</span>. <br />Also Toughens the caster for the same amount of time, reducing the duration of those debuffs.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -279,7 +314,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Removes all Snared, Slowed, and Lassitude effects from the caster, and grants immunity to these effects for <span>[z] seconds.</span>. Can only be used while under one of these effects.<br />Can be used during global cooldown, and does not trigger a global cooldown.</p>
+          <p>Removes all Snared, Slowed, and Lassitude effects from the caster, and grants immunity to these effects for <span>[z] сек.</span>. Can only be used while under one of these effects.<br />Can be used during global cooldown, and does not trigger a global cooldown.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -348,7 +383,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Increases Melee Attack and Magic Attack <span>+30</span> whenever damage is received, and absorbs <span>21%</span> of received Magic Damage.<br />Increases Move Speed <span>+5%</span> and reduces Physical Defense <span>-10%</span> each time you damage an enemy.<br />Decreases Battlerage Mana Cost <span>-50%</span>.<br />Effect lasts for <span>[z] seconds.</span>, but increases by +<span>[z] seconds.</span> per kill. Stuns you for <span>4 seconds</span> when Frenzy ends.</p>
+          <p>Increases Melee Attack and Magic Attack <span>+30</span> whenever damage is received, and absorbs <span>21%</span> of received Magic Damage.<br />Increases Move Speed <span>+5%</span> and reduces Physical Defense <span>-10%</span> each time you damage an enemy.<br />Decreases Battlerage Mana Cost <span>-50%</span>.<br />Effect lasts for <span>[z] сек.</span>, but increases by +<span>[z] сек.</span> per kill. Stuns you for <span>4 seconds</span> when Frenzy ends.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -465,10 +500,19 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Triggers a high leap that lands at a designated site, dealing <span>[x]-[y]</span> Physical Damage and Snaring nearby enemies for <span>[z] seconds.</span>.<br />Cancels Bubble Trap, Petrify, and Telekinesis effects.<br />Can't be used while Snared.<br />Snare duration reduced <span>-</span><span>50%</span> in PvP.</p>
+          <p>Triggers a high leap that lands at a designated site, dealing <span>[x]-[y]</span> Physical Damage and Snaring nearby enemies for <span>[z] сек.</span>.<br />Cancels Bubble Trap, Petrify, and Telekinesis effects.<br />Can't be used while Snared.<br />Snare duration reduced <span>-</span><span>50%</span> in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
@@ -743,6 +787,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hell Spear: Impales for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">

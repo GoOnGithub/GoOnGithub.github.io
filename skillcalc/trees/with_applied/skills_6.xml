@@ -20,10 +20,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Fires a charged arrow at an enemy dealing <span>[x]-[y]</span> Ranged Damage and slowing Move Speed for <span>[z] seconds.</span>.<br />The skill cannot be evaded, blocked, or parried.<br />Damage is reduced <span>-20%</span> if the target is within <span>8m</span>.</p>
+          <p>Fires a charged arrow at an enemy dealing <span>[x]-[y]</span> Ranged Damage and slowing Move Speed for <span>[z] сек.</span>.<br />The skill cannot be evaded, blocked, or parried.<br />Damage is reduced <span>-20%</span> if the target is within <span>8m</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff95.gif" class="st_skill_icon" alt="" width="28" />
@@ -73,10 +81,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Fires a serrated arrow, dealing an initial <span>[x]-[y]</span> Ranged Damage and then inflicting Bleeding for <span>[b]</span> Magic Damage over <span>[z] seconds.</span>.<br />Damage is reduced -20% if target is within 8m.</p>
+          <p>Fires a serrated arrow, dealing an initial <span>[x]-[y]</span> Ranged Damage and then inflicting Bleeding for <span>[b]</span> Magic Damage over <span>[z] сек.</span>.<br />Damage is reduced -20% if target is within 8m.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Bleeding: Inflicts Bleed for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
@@ -169,7 +185,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p> Lasts <span>[z] seconds.</span>.</p>
+          <p> Lasts <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -233,10 +249,19 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Removes all Shackle effects from the caster and inflics Snare on enemies in a <span>5m</span> area for <span>[z] seconds.</span>.<br />Reduces targets' Evasion, Block, and Parry rates.<br />Duration of Snare decreases -50% in PvP.</p>
+          <p>Removes all Shackle effects from the caster and inflics Snare on enemies in a <span>5m</span> area for <span>[z] сек.</span>.<br />Reduces targets' Evasion, Block, and Parry rates.<br />Duration of Snare decreases -50% in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff53.gif" class="st_skill_icon" alt="" width="28" />
@@ -272,10 +297,19 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Lifts caster into the air for <span>[z] seconds.</span>.<br />Increases ranged skill range <span>+7m</span> and damage <span>+30%</span>, but prevents Defense and Magic Defense from reducing received damage.<br />Prevents movement; canceled by using again.<br />Can't be used while Snared.<br />Prevents the use of skills with cast times.</p>
+          <p>Lifts caster into the air for <span>[z] сек.</span>.<br />Increases ranged skill range <span>+7m</span> and damage <span>+30%</span>, but prevents Defense and Magic Defense from reducing received damage.<br />Prevents movement; canceled by using again.<br />Can't be used while Snared.<br />Prevents the use of skills with cast times.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff53.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Float: Increases ranged skill range <span>7m</span> and damage <span>+30%</span>.
+Prevents movement and nullifies Physical/Magic Defense.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -308,6 +342,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff05.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Your cover is blown!: Switches to Illion Army. Debuff. Used during Clovia's rescue (Elf's Main Quest: Ezna)</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -338,10 +380,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Fires an arrow that explodes on contact, dealing <span>[x]-[y]</span> Ranged Damage and Shackling all enemies within <span>6m</span> of the target for <span>[z] seconds.</span>. <br />Interrupts the target.<br />This skill cannot be evaded, blocked, or parried.</p>
+          <p>Fires an arrow that explodes on contact, dealing <span>[x]-[y]</span> Ranged Damage and Shackling all enemies within <span>6m</span> of the target for <span>[z] сек.</span>. <br />Interrupts the target.<br />This skill cannot be evaded, blocked, or parried.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shackle: Disables Melee and Ranged skills for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff266.gif" class="st_skill_icon" alt="" width="28" />
@@ -415,7 +465,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Gradually increases Ranged Critical Rate over <span>[z] seconds.</span>. Grants immunity to Fear.</p>
+          <p>Gradually increases Ranged Critical Rate over <span>[z] сек.</span>. Grants immunity to Fear.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -655,7 +705,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Enhance your archery with Abyssal magic, transforming your attacks and gaining unparalleled range. Increases the base range of all Bow skills to at least <span>50m</span> for <span>[z] seconds.</span>, but prevents movement.<br />Replaces the Endless Arrows skill with Fang Bolt for the duration.<br />Duration is reset for every Ranged Attack that hits, but all effects end if the caster receives damage.</p>
+          <p>Enhance your archery with Abyssal magic, transforming your attacks and gaining unparalleled range. Increases the base range of all Bow skills to at least <span>50m</span> for <span>[z] сек.</span>, but prevents movement.<br />Replaces the Endless Arrows skill with Fang Bolt for the duration.<br />Duration is reset for every Ranged Attack that hits, but all effects end if the caster receives damage.</p>
         </div>
         <hr />
         <div class="skill_info">
