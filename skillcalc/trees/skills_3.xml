@@ -20,10 +20,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Swings your shield at an enemy, dealing #{avg_damage} #{detail_melee_damage} Physical Damage and Stunning them for <span>[z] seconds.</span>.</p>
+          <p>Swings your shield at an enemy, dealing #{avg_damage} #{detail_melee_damage} Physical Damage and Stunning them for <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff21.gif" class="st_skill_icon" alt="" width="28" />
@@ -108,10 +116,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Shoves an enemy away with your shield, inflicting <span>[x]-[y]</span> Physical Damage and Silencing the target for <span>[z] seconds.</span>. Interrupts enemy spellcasting. Increases Aggro generation +<span>200%</span> for <span>5 seconds</span> afterwards.</p>
+          <p>Shoves an enemy away with your shield, inflicting <span>[x]-[y]</span> Physical Damage and Silencing the target for <span>[z] сек.</span>. Interrupts enemy spellcasting. Increases Aggro generation +<span>200%</span> for <span>5 seconds</span> afterwards.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff16.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Silence: Silences for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
@@ -160,10 +176,26 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Inflicts Distressed for <span>[z] seconds.</span>, reducing the enemy's Move Speed <span>-45%</span>, Skill Damage <span>-20%</span>, Attack Speed <span>-250</span>, and healing effectiveness  <span>-60%</span>.<br />Inflicts additional damage equal to <span>60%</span> of your stacked Mettle, consuming all stacks of Mettle when cast.<br />This ability also Provokes the target, forcing affected players to target you and affected monsters to attack you.</p>
+          <p>Inflicts Distressed for <span>[z] сек.</span>, reducing the enemy's Move Speed <span>-45%</span>, Skill Damage <span>-20%</span>, Attack Speed <span>-250</span>, and healing effectiveness  <span>-60%</span>.<br />Inflicts additional damage equal to <span>60%</span> of your stacked Mettle, consuming all stacks of Mettle when cast.<br />This ability also Provokes the target, forcing affected players to target you and affected monsters to attack you.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff120.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Provoked: Increases the taunted target's Aggro to the max.
+Grants immunity to all stronger Taunts.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff123.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Distressed: Decreases Move Speed <span>-45%</span>; decreases Skill Damage <span>-20%</span>, Attack Speed -<span>[m]</span>, and Healing Effectiveness <span>-60%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_adamant06.gif" class="st_skill_icon" alt="" width="28" />
@@ -199,7 +231,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p> Lasts <span>[z] seconds.</span>.<br />While active, you gain 50% of received damage as stacks of Mettle.</p>
+          <p> Lasts <span>[z] сек.</span>.<br />While active, you gain 50% of received damage as stacks of Mettle.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -277,10 +309,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Raises a shield around the caster for <span>[z] seconds.</span>. <br />Instantly grants Mettle in proportion to the skill's level.<br />Prevents being Pushed or Tripped.<br />Can only be used while a shield is equipped.</p>
+          <p>Raises a shield around the caster for <span>[z] сек.</span>. <br />Instantly grants Mettle in proportion to the skill's level.<br />Prevents being Pushed or Tripped.<br />Can only be used while a shield is equipped.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff29.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Redoubt (Level 1): Increases Block Rate <span>+25%</span> and decreases Move Speed <span>-10%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -309,10 +349,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Summons Ollo's hammer and hurls it toward a location; inflicts Trip on an enemy for <span>[z] seconds.</span> if it hits.<br />Also deals <span>[x]-[y]</span> Physical Damage to all enemies within <span>3m</span> of the target location.</p>
+          <p>Summons Ollo's hammer and hurls it toward a location; inflicts Trip on an enemy for <span>[z] сек.</span> if it hits.<br />Also deals <span>[x]-[y]</span> Physical Damage to all enemies within <span>3m</span> of the target location.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Tripped: Knocked down by an attack.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
@@ -358,6 +406,23 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff28.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Taunt: Forces enemies to focus on the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff26.gif" class="st_skill_icon" alt="" width="28" />
@@ -437,7 +502,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Grants immunity to all damage for <span>[z] seconds.</span>.<br />Effect is canceled if you move.</p>
+          <p>Grants immunity to all damage for <span>[z] сек.</span>.<br />Effect is canceled if you move.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -669,10 +734,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Hurls your shield at the target, dealing <span>[x]-[y]</span> Physical Damage.<br />Has a 100% chance to Critical Strike. Temporarily removes all benefits of your shield while the projectile is in the air. Inflicts Disarm on targets that Parry the attack, removing all benefits of their weapon for <span>[z] seconds.</span>. #{buff_tooltip2}</p>
+          <p>Hurls your shield at the target, dealing <span>[x]-[y]</span> Physical Damage.<br />Has a 100% chance to Critical Strike. Temporarily removes all benefits of your shield while the projectile is in the air. Inflicts Disarm on targets that Parry the attack, removing all benefits of their weapon for <span>[z] сек.</span>. #{buff_tooltip2}</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff36.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Rotten Flesh Golem's Slam: Blown into the air by the powerful shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -735,7 +808,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Tethers an enemy's soul to a location for <span>[z] seconds.</span>, pulling them back to that spot every time they attempt to move further than <span>10m</span> away.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
+          <p>Tethers an enemy's soul to a location for <span>[z] сек.</span>, pulling them back to that spot every time they attempt to move further than <span>10m</span> away.<br />Any additional Abyssal Charges are consumed on casting, increasing the duration.</p>
         </div>
         <hr />
         <div class="skill_info">

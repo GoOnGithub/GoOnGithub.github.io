@@ -22,6 +22,16 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Weakened Body: Inflicts the trauma of resurrection.
+Decreases max health and mana -70%.
+Decreases Move Speed -30%.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
@@ -57,10 +67,25 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Triggers a leap toward an enemy that deals <span>[x]-[y]</span> Physical Damage and stacks <span>1</span> Bloodthirst upon landing. Also Stuns the enemy for <span>[z] seconds.</span>. Can't be used while Snared.</p>
+          <p>Triggers a leap toward an enemy that deals <span>[x]-[y]</span> Physical Damage and stacks <span>1</span> Bloodthirst upon landing. Also Stuns the enemy for <span>[z] сек.</span>. Can't be used while Snared.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff57.gif" class="st_skill_icon" alt="" width="28" />
@@ -100,7 +125,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Triggers a backwards leap to escape a dangerous area or back away from an enemy. Eliminates the Cast Time for Flamebolt, Earthen Grip, and Sunder Earth for <span>[z] seconds.</span>. <br />Can't be used while Snared.</p>
+          <p>Triggers a backwards leap to escape a dangerous area or back away from an enemy. Eliminates the Cast Time for Flamebolt, Earthen Grip, and Sunder Earth for <span>[z] сек.</span>. <br />Can't be used while Snared.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -136,6 +161,21 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff05.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Your cover is blown!: Switches to Illion Army. Debuff. Used during Clovia's rescue (Elf's Main Quest: Ezna)</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff122.gif" class="st_skill_icon" alt="" width="28" />
@@ -178,10 +218,19 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Inflicts <span>[x]-[y]</span> Ranged Damage and marks enemies for <span>[z] seconds.</span>. <br />Mark Effect:  <br />Damage reduced -20% if target is within 8m.</p>
+          <p>Inflicts <span>[x]-[y]</span> Ranged Damage and marks enemies for <span>[z] сек.</span>. <br />Mark Effect:  <br />Damage reduced -20% if target is within 8m.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff57.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Stalker's Mark (Rank 1): Decreases received healing <span>-60%</span>.
+Deals damage equal to <span>50</span> times the number of attacks suffered during the mark's duration when it expires.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
@@ -219,6 +268,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff69.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>62600 DO NOT TRANSLATE: Decreases Move Speed -30% during Stealth.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -247,10 +304,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Fires a toxic arrow, dealing an initial <span>[x]-[y]</span> Ranged Damage and then Poisoning the target for <span>[b]</span> Magic Damage over <span>[z] seconds.</span>.<br />Damage reduced <span>-20%</span> if target is within <span>8m</span>.</p>
+          <p>Fires a toxic arrow, dealing an initial <span>[x]-[y]</span> Ranged Damage and then Poisoning the target for <span>[b]</span> Magic Damage over <span>[z] сек.</span>.<br />Damage reduced <span>-20%</span> if target is within <span>8m</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Venom: Deals <span>[x]-[y]</span> damage over time.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -283,6 +348,21 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff67.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Bleeding: Inflicts Bleed for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
@@ -318,10 +398,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Launches a surprise attack, dealing Melee Physical damage equal to <span>[m]</span> times your stacked Bloodthirst and Shackling your target for <span>[z] seconds.</span>.<br />Backstabbing adds Physical Damage equal to <span>400%</span> of Melee Attack.</p>
+          <p>Launches a surprise attack, dealing Melee Physical damage equal to <span>[m]</span> times your stacked Bloodthirst and Shackling your target for <span>[z] сек.</span>.<br />Backstabbing adds Physical Damage equal to <span>400%</span> of Melee Attack.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff37.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shackle: Disables Melee and Ranged skills for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
@@ -368,7 +456,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p> Lasts <span>[z] seconds.</span>.</p>
+          <p> Lasts <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -400,7 +488,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Teleports caster behind an ally or enemy, reducing Aggro -50% for <span>[z] seconds.</span>.<br />Increases Move Speed +50% for <span>3 seconds</span> after casting.<br />Can't be used while Snared, and does not allow the caster to pass through obstacles.</p>
+          <p>Teleports caster behind an ally or enemy, reducing Aggro -50% for <span>[z] сек.</span>.<br />Increases Move Speed +50% for <span>3 seconds</span> after casting.<br />Can't be used while Snared, and does not allow the caster to pass through obstacles.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -432,10 +520,25 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Flings a dagger that deals <span>[x]-[y]</span> damage to a single enemy, then ricochets to 5 additional enemies within a <span>7m</span> radius of the initial target, dealing less damage each hit.<br />Enemies hit:  <br />Lasts <span>[z] seconds.</span>.<br />Grants <span>1</span> stack of Bloodthirst for each target hit, up to a maximum of <span>6</span> stacks.</p>
+          <p>Flings a dagger that deals <span>[x]-[y]</span> damage to a single enemy, then ricochets to 5 additional enemies within a <span>7m</span> radius of the initial target, dealing less damage each hit.<br />Enemies hit:  <br />Lasts <span>[z] сек.</span>.<br />Grants <span>1</span> stack of Bloodthirst for each target hit, up to a maximum of <span>6</span> stacks.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_vocation28.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Dagger: Decreases Attack Speed -<span>[m]</span> and Move Speed <span>-60%</span>, and increases Cast Time<span>+60%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff66.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Loanshark's Henchman: The loanshark's henchman resorts to violence to collect the debt from the debtor.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff57.gif" class="st_skill_icon" alt="" width="28" />
@@ -650,6 +753,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_hatred36.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Deadly Poison: Inflicts <span>[x]-[y]</span> Magic damage for <span>[z] sec.</span>, ignoring Magic Defense.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">

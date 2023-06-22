@@ -22,6 +22,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff114.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Prepare For Battle of Death: Preparing for the combat of death.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -96,10 +104,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Summons spears from the underworld to pierce all enemies within <span><span>[w]</span>m</span>.<br />Deals <span>[x]-[y]</span> Magic Damage and Impales targets for <span>[z] seconds.</span>.</p>
+          <p>Summons spears from the underworld to pierce all enemies within <span><span>[w]</span>m</span>.<br />Deals <span>[x]-[y]</span> Magic Damage and Impales targets for <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hell Spear: Impales for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
@@ -180,7 +196,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Summons crows to attack all enemies within <span><span>[w]</span>m</span>. Reduces enemies' Physical Accuracy -30% and deals <span>[x]-[y]</span> Magic Damage over <span>[z] seconds.</span>.</p>
+          <p>Summons crows to attack all enemies within <span><span>[w]</span>m</span>. Reduces enemies' Physical Accuracy -30% and deals <span>[x]-[y]</span> Magic Damage over <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -230,6 +246,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff125.gif" class="st_skill_icon" alt="" width="28" />
@@ -272,7 +296,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Suspends an enemy in the air for up to <span>[z] seconds.</span>. Prevents the target from taking any actions, even when taking damage.<br />This spell ends if the caster moves or takes any other action.</p>
+          <p>Suspends an enemy in the air for up to <span>[z] сек.</span>. Prevents the target from taking any actions, even when taking damage.<br />This spell ends if the caster moves or takes any other action.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -304,7 +328,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p> Lasts <span>[z] seconds.</span>. Doesn't trigger a global cooldown.</p>
+          <p> Lasts <span>[z] сек.</span>. Doesn't trigger a global cooldown.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -338,10 +362,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Interrupts all enemy casting within <span>5 meters</span> and inflicts Silence for <span>[z] seconds.</span>. Removes all Fear effects from caster.</p>
+          <p>Interrupts all enemy casting within <span>5 meters</span> and inflicts Silence for <span>[z] сек.</span>. Removes all Fear effects from caster.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff16.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Silence: Silences for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -366,10 +398,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p> Lasts <span>[z] seconds.</span>.</p>
+          <p> Lasts <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff49.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Urgency (Rank 1): Reduces cooldown for Occultism skills <span>-9 seconds</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -630,7 +670,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Infects an enemy with cursed seeds for <span>[z] seconds.</span>. Causes deadly thorns to sprout in their footsteps after a <span>4 second</span> delay, inflicting <span>[x]-[y]</span> Magic damage on surrounding enemies as they burst from the ground. Slows any enemies that pass through the area, and deals continuous magic damage. Seeds sprout early if enemies step on them.</p>
+          <p>Infects an enemy with cursed seeds for <span>[z] сек.</span>. Causes deadly thorns to sprout in their footsteps after a <span>4 second</span> delay, inflicting <span>[x]-[y]</span> Magic damage on surrounding enemies as they burst from the ground. Slows any enemies that pass through the area, and deals continuous magic damage. Seeds sprout early if enemies step on them.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -696,7 +736,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Summons a Shadow Circle for <span>[z] seconds.</span>, allowing the caster to teleport in front of any target within the circle. Any additional Abyssal Charges are consumed on casting, increasing the number of times the caster can teleport. If cast while at 6 Abyssal Charges, the caster may teleport an unlimited number of times for the duration of the spell.</p>
+          <p>Summons a Shadow Circle for <span>[z] сек.</span>, allowing the caster to teleport in front of any target within the circle. Any additional Abyssal Charges are consumed on casting, increasing the number of times the caster can teleport. If cast while at 6 Abyssal Charges, the caster may teleport an unlimited number of times for the duration of the spell.</p>
         </div>
         <hr />
         <div class="skill_info">

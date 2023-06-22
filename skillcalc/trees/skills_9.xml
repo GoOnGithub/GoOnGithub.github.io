@@ -57,10 +57,25 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Stuns an enemy for <span>[z] seconds.</span> with a special performance. After the Stun ends, the enemy is Charmed and susceptible to other Songcraft skill effects. Reduces caster's Cast Time <span>-20%</span> for <span>5 seconds</span>. Does not stop a performance skill.</p>
+          <p>Stuns an enemy for <span>[z] сек.</span> with a special performance. After the Stun ends, the enemy is Charmed and susceptible to other Songcraft skill effects. Reduces caster's Cast Time <span>-20%</span> for <span>5 seconds</span>. Does not stop a performance skill.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff75.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Corrosion: The stench of decay is drifting everywhere.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff76.gif" class="st_skill_icon" alt="" width="28" />
@@ -94,7 +109,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Plays a lighthearted song for <span>[z] seconds.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+          <p>Plays a lighthearted song for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -136,7 +151,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Plays clashing sounds to weaken and slow all enemies in a 5m radius.<br />- Reduces Skill Damage <span>-20%</span><br />- Reduces Attack Speed <span>-250</span>.<br />- Increases Cast Time <span>+20%</span>.<br />- Reduces Magic Defense <span>-320</span>.<br />- Deals <span>[x]-[y]</span> Magic Damage after <span>[z] seconds.</span> seconds.<br />- Does not stop Perform skills.</p>
+          <p>Plays clashing sounds to weaken and slow all enemies in a 5m radius.<br />- Reduces Skill Damage <span>-20%</span><br />- Reduces Attack Speed <span>-250</span>.<br />- Increases Cast Time <span>+20%</span>.<br />- Reduces Magic Defense <span>-320</span>.<br />- Deals <span>[x]-[y]</span> Magic Damage after <span>[z] сек.</span> seconds.<br />- Does not stop Perform skills.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -232,7 +247,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Plays a healing song for you and your allies for <span>[z] seconds.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-20%</span> during the performance.</p>
+          <p>Plays a healing song for you and your allies for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-20%</span> during the performance.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -307,7 +322,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Plays a song of the earth for <span>[z] seconds.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+          <p>Plays a song of the earth for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -344,7 +359,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Plays a lively song for you and your allies for <span>[z] seconds.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+          <p>Plays a lively song for you and your allies for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -389,7 +404,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Lifts Stun and Sleep debuffs and grants immunity to allies within a <span>9m</span> range every second for <span>[z] seconds.</span>. Canceled by using another skill.<br />Can be used while Stunned.</p>
+          <p>Lifts Stun and Sleep debuffs and grants immunity to allies within a <span>9m</span> range every second for <span>[z] сек.</span>. Canceled by using another skill.<br />Can be used while Stunned.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -419,7 +434,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Plays a song of penitence for you and your allies for <span>[z] seconds.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
+          <p>Plays a song of penitence for you and your allies for <span>[z] сек.</span>. <br />Effect increases the longer you play.<br />Can only stack with other Perform skills and shares a cooldown with them.<br />Decreases Aggro <span>-10%</span> during the performance.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -700,6 +715,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_battle_pet21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>370724 DO NOT TRANSLATE: 370725 DO NOT TRANSLATE</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">

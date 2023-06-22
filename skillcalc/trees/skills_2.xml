@@ -20,10 +20,19 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Calls forth a hand from the ground to hold an enemy, inflicting Snare for <span>[z] seconds.</span>.<br />Deals <span>[x]-[y]</span> Magic Damage on expiration.<br />Being damaged by a direct attack will free the target early, but debuffs that deal damage over time will not end this effect.<br />Snare duration reduced <span>-50%</span> in PvP.</p>
+          <p>Calls forth a hand from the ground to hold an enemy, inflicting Snare for <span>[z] сек.</span>.<br />Deals <span>[x]-[y]</span> Magic Damage on expiration.<br />Being damaged by a direct attack will free the target early, but debuffs that deal damage over time will not end this effect.<br />Snare duration reduced <span>-50%</span> in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
@@ -65,10 +74,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Deals <span>[x]-[y]</span> Magic Damage and burns <span>[f]</span> mana over <span>[z] seconds.</span>. Decreases healing effectiveness <span>-60%</span> and increases duration of Stun and Trip <span>+30%</span>.</p>
+          <p>Deals <span>[x]-[y]</span> Magic Damage and burns <span>[f]</span> mana over <span>[z] сек.</span>. Decreases healing effectiveness <span>-60%</span> and increases duration of Stun and Trip <span>+30%</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff21.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Enervated: Decreases mana <span>#{total_min_mana_burn}-#{total_max_mana_burn}</span> for <span>[z] sec.</span>. Decreases healing effectiveness <span>-60%</span>. Increases the duration of Stun and Trip <span>+30%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff119.gif" class="st_skill_icon" alt="" width="28" />
@@ -110,7 +127,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Traps an enemy inside a bubble for <span>[z] seconds.</span> and slowly lifts it into the air. <br />Enemies in bubbles can't attack, but take -50% less Magic Damage.<br />Being damaged by a direct attack will free the target early, but debuffs that deal damage over time will not end this effect.<br />Bubble duration reduced <span>-50%</span> in PvP.</p>
+          <p>Traps an enemy inside a bubble for <span>[z] сек.</span> and slowly lifts it into the air. <br />Enemies in bubbles can't attack, but take -50% less Magic Damage.<br />Being damaged by a direct attack will free the target early, but debuffs that deal damage over time will not end this effect.<br />Bubble duration reduced <span>-50%</span> in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -155,10 +172,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Inflicts Fear on an enemy and causes it to flee from the caster for <span>[z] seconds.</span>.<br />Being damaged by a direct attack has a chance to free the target early, but debuffs that deal damage over time will not end this effect.</p>
+          <p>Inflicts Fear on an enemy and causes it to flee from the caster for <span>[z] сек.</span>.<br />Being damaged by a direct attack has a chance to free the target early, but debuffs that deal damage over time will not end this effect.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff119.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fear: Horrifies the target, making them flee from the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
@@ -271,7 +296,7 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Awakens caster or an ally and grants immunity to Sleep for <span>[z] seconds.</span>.</p>
+          <p>Awakens caster or an ally and grants immunity to Sleep for <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
@@ -303,10 +328,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Magically fatigues the target, causing them to fall asleep for <span>[x] seconds.</span> after a <span>[z] seconds.</span> delay. Enemies will wake upon taking damage. Sleep duration reduced <span>-50%</span> in PvP.</p>
+          <p>Magically fatigues the target, causing them to fall asleep for <span>[x] сек.</span> after a <span>[z] сек.</span> delay. Enemies will wake upon taking damage. Sleep duration reduced <span>-50%</span> in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff19.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sleep: Sleeping.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
@@ -342,10 +375,25 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Causes Fear in all nearby enemies for <span>[z] seconds.</span>, forcing them to flee and Stunning them for <span>2 seconds</span>.<br />Being damaged by a direct attack has a chance to free the target early, but debuffs that deal damage over time will not end this effect.</p>
+          <p>Causes Fear in all nearby enemies for <span>[z] сек.</span>, forcing them to flee and Stunning them for <span>2 seconds</span>.<br />Being damaged by a direct attack has a chance to free the target early, but debuffs that deal damage over time will not end this effect.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff119.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fear: Horrifies the target, making them flee from the caster for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
@@ -381,10 +429,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Deals <span>[x]-[y]</span> Magic Damage and Stuns an enemy for <span>[z] seconds.</span>.<br />If the target has any positive buffs, Focal Concussion removes one buff and deals additional damage when the Stun ends.</p>
+          <p>Deals <span>[x]-[y]</span> Magic Damage and Stuns an enemy for <span>[z] сек.</span>.<br />If the target has any positive buffs, Focal Concussion removes one buff and deals additional damage when the Stun ends.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -654,10 +710,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Inflicts a crippling despair on your chosen victim for <span>[z] seconds.</span>. <br />Can only be used in PvP.</p>
+          <p>Inflicts a crippling despair on your chosen victim for <span>[z] сек.</span>. <br />Can only be used in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_hatred07.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hopelessness: Any skills cast during this debuff will have their cooldowns increased by <span>+10 seconds</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -726,6 +790,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff334.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sojung's Petrification: Petrifies a target and periodically deals siege damage equivalent to a percentage of max health.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">

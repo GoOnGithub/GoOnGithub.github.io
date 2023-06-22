@@ -18,10 +18,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Deals <span>[x]-[y]</span> Magic Damage to an enemy.<br />Can be used up to <span>3 times</span> in a row without triggering a cooldown.<br />Attack 1: Inflicts Burning for <span>[z] seconds.</span>.<br />Attack 3: Converts <span>20%</span> of damage dealt to Enervated enemies to mana; inflicts Conflagration on Burning enemies. <br />All 3 attacks deal <span>+12%</span> additional damage to targets under freezing effects.<br /><br /><br />Hold down for continuous use.</span></p>
+          <p>Deals <span>[x]-[y]</span> Magic Damage to an enemy.<br />Can be used up to <span>3 times</span> in a row without triggering a cooldown.<br />Attack 1: Inflicts Burning for <span>[z] сек.</span>.<br />Attack 3: Converts <span>20%</span> of damage dealt to Enervated enemies to mana; inflicts Conflagration on Burning enemies. <br />All 3 attacks deal <span>+12%</span> additional damage to targets under freezing effects.<br /><br /><br />Hold down for continuous use.</span></p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
@@ -70,10 +78,25 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Fires an Ice Arrow at an enemy, dealing <span>[x]-[y]</span> Magic damage and decreasing Move Speed for <span>[z] seconds.</span>.</p>
+          <p>Fires an Ice Arrow at an enemy, dealing <span>[x]-[y]</span> Magic damage and decreasing Move Speed for <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Freeze: Freezes, then gradually thaws.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
@@ -157,10 +180,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Fires lightning bolts to deal <span>[x]-[y]</span> Magic Damage and Shock an enemy.<br />Deals <span>[b]</span> Magic Damage over <span>[z] seconds.</span> to Shocked enemies; also Shocks all other enemies within <span>2m</span>. When this skill levels up, it increases damage, but also cast time.</p>
+          <p>Fires lightning bolts to deal <span>[x]-[y]</span> Magic Damage and Shock an enemy.<br />Deals <span>[b]</span> Magic Damage over <span>[z] сек.</span> to Shocked enemies; also Shocks all other enemies within <span>2m</span>. When this skill levels up, it increases damage, but also cast time.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Electric Shock: Inflicts <span>[x]-[y]</span> Magic Damage on you and allies within <span>2m</span> over <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff50.gif" class="st_skill_icon" alt="" width="28" />
@@ -204,10 +235,26 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Deals <span>[x]-[y]</span> damage to all enemies within <span>8 meters</span> with a chance to Snare for <span>[z] seconds.</span>.<br />Snare duration reduced <span>-50%</span> in PvP.</p>
+          <p>Deals <span>[x]-[y]</span> damage to all enemies within <span>8 meters</span> with a chance to Snare for <span>[z] сек.</span>.<br />Snare duration reduced <span>-50%</span> in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Freeze: Freezes, then gradually thaws.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
@@ -260,6 +307,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
@@ -293,10 +348,25 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Freezes your footprints for <span>[z] seconds.</span>. The ice Freezes any enemies who step on it, but melts in <span>4 seconds</span>.</p>
+          <p>Freezes your footprints for <span>[z] сек.</span>. The ice Freezes any enemies who step on it, but melts in <span>4 seconds</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Freeze: Freezes, then gradually thaws.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff10.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Shockwave: Stunned for <span>[z] sec.</span> by a shockwave.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -359,6 +429,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Electric Shock: Inflicts <span>[x]-[y]</span> Magic Damage on you and allies within <span>2m</span> over <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff50.gif" class="st_skill_icon" alt="" width="28" />
@@ -392,10 +470,25 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Calls forth a wall of fire that deals <span>[b]</span> Fire Damage and Slows for <span>[z] seconds.</span>.</p>
+          <p>Calls forth a wall of fire that deals <span>[b]</span> Fire Damage and Slows for <span>[z] сек.</span>.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff04.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Slow: Decreases Move Speed -60% for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
@@ -437,6 +530,21 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff61.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Fire: Inflicts <span>[x]-[y]</span> additional Magic Damage for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff01.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Tripped: Knocked down by an attack.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff64.gif" class="st_skill_icon" alt="" width="28" />
@@ -478,6 +586,14 @@
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff59.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Electric Shock: Inflicts <span>[x]-[y]</span> Magic Damage on you and allies within <span>2m</span> over <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">

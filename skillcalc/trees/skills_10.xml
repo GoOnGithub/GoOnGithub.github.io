@@ -63,10 +63,19 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Caster/allies: Cures one debuff and increases received healing <span>+15%</span> for <span>[z] seconds.</span>.<br />Enemies: Inflicts Snare for <span>[x] seconds.</span>. Increases received damage <span>+12%</span> and decreases healing effectiveness <span>-30%</span> for <span>[v] seconds.</span>. Snare duration reduced <span>-50%</span> in PvP.</p>
+          <p>Caster/allies: Cures one debuff and increases received healing <span>+15%</span> for <span>[z] сек.</span>.<br />Enemies: Inflicts Snare for <span>[x] сек.</span>. Increases received damage <span>+12%</span> and decreases healing effectiveness <span>-30%</span> for <span>[v] сек.</span>. Snare duration reduced <span>-50%</span> in PvP.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff55.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Snare: Catches target in a trap and prevents movement.
+Decreases Evasion, Block, and Parry Rate <span>-6%</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -150,10 +159,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Regenerates <span>[b]</span> Health over <span>[z] seconds.</span> for you or an ally.<br />Hold ALT to use the skill on yourself.</p>
+          <p>Regenerates <span>[b]</span> Health over <span>[z] сек.</span> for you or an ally.<br />Hold ALT to use the skill on yourself.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff87.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Grace of the Forest: Those who eat the Lord's fruit receive the grace from the Green Lord. All stats increase +2.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
@@ -214,10 +231,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Summons four skewers within a 20m circle at the target area, dealing <span>[x]-[y]</span> Magic Damage and Impaling enemies for <span>[z] seconds.</span>, preventing all actions. Skewers deal more damage where they overlap. When this skill levels up, it increases in both damage and cast time.</p>
+          <p>Summons four skewers within a 20m circle at the target area, dealing <span>[x]-[y]</span> Magic Damage and Impaling enemies for <span>[z] сек.</span>, preventing all actions. Skewers deal more damage where they overlap. When this skill levels up, it increases in both damage and cast time.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Hell Spear: Impales for <span>[z] sec.</span>.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
           <p>Combos:</p>
           <div class="effects"></div>
             <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff124.gif" class="st_skill_icon" alt="" width="28" />
@@ -654,10 +679,18 @@
         </div>
         <hr />
         <div class="block desc">
-          <p>Removes all debuffs and aggro from a selected target and protects them against all damage for <span>[z] seconds.</span>, but prevents them from moving or taking actions for the duration. <br />Using this skill on a petrified target reverses the effects.</p>
+          <p>Removes all debuffs and aggro from a selected target and protects them against all damage for <span>[z] сек.</span>, but prevents them from moving or taking actions for the duration. <br />Using this skill on a petrified target reverses the effects.</p>
         </div>
         <hr />
         <div class="skill_info">
+          <p>Applied effects:</p>
+          <div class="effects">
+            <img src="//aa-classic.com/img/calculator/combo/icon_skill_buff334.gif" class="st_skill_icon" alt="" width="28" />
+            <div class="desc">
+              <p>Sojung's Petrification: Petrifies a target and periodically deals siege damage equivalent to a percentage of max health.</p>
+            </div>
+            <div class="clear"></div>
+          </div>
         </div>
         <hr />
         <div class="block req">
