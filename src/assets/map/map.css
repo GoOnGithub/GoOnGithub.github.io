@@ -1,0 +1,28 @@
+.icon_expiring {
+         animation: blinking 2s infinite;
+        -webkit-animation: blinking 2s infinite;
+    }
+    @keyframes blinking {
+        0% {
+          opacity:0.87;
+        }
+        50% {
+            opacity:.3;
+        }
+        100% {
+            opacity:.87;
+          }
+      }
+
+.icon_expired{
+    color:#B71C1C
+}
+
+.leaflet-popup-content-wrapper, .leaflet-popup-tip {
+    background: rgba(0,0,0,0.75)!important;
+    color:white!important;
+    border-radius: 4px!important;
+}
+.leaflet-container a.leaflet-popup-close-button {
+    color: white!important;
+}
